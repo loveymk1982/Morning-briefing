@@ -6,7 +6,6 @@ import requests
 import feedparser
 import icalendar
 import recurring_ical_events
-from anthropic import Anthropic
 
 KST = ZoneInfo("Asia/Seoul")
 
@@ -77,7 +76,7 @@ def fetch_top_news(limit: int = 5) -> list[dict]:
 
 def generate_ai_briefing(api_key: str, date_str: str, weather: dict, events: list[dict], news: list[dict]) -> str:
     if not api_key:
-        return "ANTHROPIC_API_KEY가 설정되지 않아 기본 데이터만 표시합니다."
+        return "API 키가 설정되지 않아 기본 데이터만 표시합니다."
 
     events_text = "\n".join(f"- [{e['time']}] {e['title']}" for e in events) if events else "- 등록된 오늘 일정이 없습니다."
     news_text = "\n".join(f"- {n['title']}" for n in news) if news else "- 주요 뉴스가 없습니다."
@@ -99,18 +98,24 @@ def generate_ai_briefing(api_key: str, date_str: str, weather: dict, events: lis
 2. 오늘 일정을 시간순으로 짚어주고, 일정이 없으면 여유로운 하루를 응원해 주세요.
 3. 주요 뉴스 헤드라인 핵심을 3줄 이내로 요약해 주세요.
 """
-    client = Anthropic(api_key=api_key)
-    for model_name in ["claude-sonnet-4-20250514", "claude-3-5-sonnet-latest", "claude-3-haiku-20240307"]:
+    for model_name in ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash"]:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={api_key}"
         try:
-            msg = client.messages.create(
-                model=model_name,
-                max_tokens=900,
-                messages=[{"role": "user", "content": prompt}],
+            resp = requests.post(
+                url,
+                json={"contents": [{"parts": [{"text": prompt}]}]},
+                timeout=30,
             )
-            return msg.content[0].text.strip()
+            resp.raise_for_status()
+            data = resp.json()
+            candidates = data.get("candidates", [])
+            if candidates:
+                parts = candidates[0].get("content", {}).get("parts", [])
+                if parts and "text" in parts[0]:
+                    return parts[0]["text"].strip()
         except Exception as exc:
-            print(f"[WARN] 모델 {model_name} 호출 실패: {exc}")
-    return "AI 요약을 생성하지 못했습니다."
+            print(f"[WARN] Gemini 모델 {model_name} 호출 실패: {exc}")
+    return "AI 요약을 생성하지 못했습니다. Google AI Studio API 키를 확인해 주세요."
 
 
 def send_telegram_message(token: str, chat_id: str, text: str) -> None:
@@ -131,7 +136,10 @@ def main() -> None:
 
     telegram_token = os.environ.get("TELEGRAM_TOKEN", "").strip()
     telegram_chat_id = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
-    anthropic_api_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    ai_api_key = (
+        os.environ.get("GEMINI_API_KEY", "").strip()
+        or os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    )
     ics_url = os.environ.get("ICS_URL", "").strip()
     publish_events_raw = os.environ.get("PUBLISH_EVENTS", "true").strip().lower()
     publish_events = publish_events_raw not in ("false", "0", "no")
@@ -139,7 +147,7 @@ def main() -> None:
     weather = fetch_weather()
     events = fetch_calendar_events(ics_url, now_kst.date())
     news = fetch_top_news(limit=5)
-    summary = generate_ai_briefing(anthropic_api_key, date_str, weather, events, news)
+    summary = generate_ai_briefing(ai_api_key, date_str, weather, events, news)
 
     send_telegram_message(telegram_token, telegram_chat_id, f"☀️ {date_str} 모닝 브리핑\n\n{summary}")
 
