@@ -1,35 +1,40 @@
 {
-  "updated_at": "2026-11-11 23:43 KST",
-  "date_label": "2026년 11월 11일 (수)",
+  "updated_at": "2026-11-12 07:46 KST",
+  "date_label": "2026년 11월 12일 (목)",
   "weather": {
-    "temp_now": 8.2,
-    "temp_max": 13.7,
-    "temp_min": 4.2,
+    "temp_now": 5.9,
+    "temp_max": 15.3,
+    "temp_min": 5.8,
     "rain_prob": 0
   },
   "summary": "AI 요약을 생성하지 못했습니다. Google AI Studio API 키를 확인해 주세요.",
-  "events": [],
+  "events": [
+    {
+      "time": "10:00",
+      "title": "KPI실적서 설명.실장"
+    }
+  ],
   "events_hidden": false,
   "news": [
     {
-      "title": "최민희, 국회 출입기자에 “하이에나 떼들” 조롱글…파문 커지자 “사과” - 경향신문",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBLclNDWEY2UHdjd0p5S2RpZGszZGZaMENOUGJtQ2pHZVZrNThEZlgtcTJ5NE95Yi1jc1hsYVdRTmNvd0xfcmdVSlFiRE5SbkVXTUotaXdhcUVKd9IBX0FVX3lxTE9kRFRNWkZJM2VLYTFpR1d2eWhRQ3BrRDhPOXoyZGFJWk5KN0ctOHp1c1ltUzNMVm1ONmNvRUNIOUs4d2k2bktJZjh1QnMzVlJJSm9ZRmF4aEdNd3VtMVMw?oc=5"
+      "title": "靑 일축에도… 與 수도권의원 모임 토론회선 “비거주 규제 완화” - 동아일보",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9pRzNzZmNPMVNJZkVha3BhUVhoaEhWWHZTYVdDV1J1dGptUnlyVlROQ0piaFlvT2dnOGVKM0l3UkhweHMxZEVwU1UxZGFaWndOYWxIeVp2cWx4c2c5S19FZFpHWHhBUzN1XzVUTWluT1E5UzAyS2dn0gFmQVVfeXFMTzBHb29mdDJSaHNseEF2N2x2VTlwczBSa1N5WWExVXp5d1VESUFJTnp0cE1peFdub1FZMm1IY3AyT1BQeE4zdnBveEFqU1JpOU9xVmJLNk5xMVZIaEdXMXpoZnlHd2NR?oc=5"
     },
     {
-      "title": "사관학교 통합 ‘급선회’…육·해·공사 남고, 본교 하나 더 짓는다 - 한겨레",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBkc3hLR2Y5RGdJWk5GNENfN3E1TVB1M2J1N051UW1WVFlaLXlUSzlUMjVKQXc5eGZGR0tPdW5pMUxqT0ZDWFdpcVRHOG13TWRPc2hpeXNZVmFrUlA3b1BoT0dBVURBd2VsUGd3?oc=5"
+      "title": "10대 살해한 50대…'아들 성범죄'에 '조건만남 절도'까지 복잡(종합) - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90YW5yeTdTUUtoQmdXdHVnUEd4OTNCTm5DaGM2aG1BZHBsOXl1a2tLYXZFTkdoaWFGbF94dWstUHhoaUE2RklubnhaWlh3OFpuVGVxd3FuNEQzTjTSAWBBVV95cUxObFo3NE9uanVkQlhWTkxRM3BjZUNuUlByODlnSG9XWmVTOWtLZTEwcDBXbnpFYmdZTnc2SGk1MzY0aS1yN3JWNjJnOGhTMW9nMDFSRDRRZnpZTHhPX2E5SXI?oc=5"
     },
     {
-      "title": "靑 \"흔들림 없다\" 원칙 고수에 … 수그러든 與 '종부세 완화론' - 매일경제",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tVTZiV1dCejBGRXp0Z0RBUXUzcF90cjdRUm1KZVJpdXIybHQwQ2t2aVRWOEk3Zlo3V2pyVkMxbWtfYWZJOUhvZkNqdkphOHRoRWxpWTNB?oc=5"
+      "title": "트럼프 \"이란전 곧 끝날 것… 추가로 파괴하지 않아도 되길\" - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWFdXNjg0ajI5RlcyMjFtWGx2T2F1MWJ5YXRFNTItMUZGalFWeS1tU0V4c2NCbHB2ekJxRUVMTkV6U05Gd19ya1drVllSRThGalQ0R01YMEZaQkxCZ2lET0dnUXRlMllxVklVWUZpM3k1ZUlpSHNfWjRTdjVQV0x1RVFna04?oc=5"
     },
     {
-      "title": "“한덕수 구속 만기 코앞, 대법원장 뭐하나” 민주당 최고위 [지금뉴스] - KBS 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5zUktXelNPWjlpSmVjcko1LWMxZlMyRS15UlhWTjNIWHZ0LURVWFlmNDNrRFVxTFNoZmpkYmJJY1V0bUVBeE5mT1huclJ0eWtZcWRsaWRjX3JDcUJMSHI5OVpfcFVsZw?oc=5"
+      "title": "“종부세 ‘종’ 자도 안 나왔다”는 청와대 만찬···이 대통령, 여 지도부에 “당정 한마음 한뜻 움직여야” - 경향신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE54NXBtU2EyTk9TODRyU3Fza2lOS3dCcjRpM2VhMTdqdXFETkpqMEpwQVB5aVZPbHVWdUdPZjd6OURTTFQ3eVlWcm5FTlN4Zjc1RU83S2xfZHNpd9IBX0FVX3lxTE9YUUNOcVk5U0dxSG5aRWg0RVh3bzUtbGVNbEJmUVRnOFI1ZGNFZmQ1eTluLU9odXpld1d6ZnhKbEhFSzhVLUEwY1h4cmJTNkkwVUoyZlVkc3UybG9hRzJ3?oc=5"
     },
     {
-      "title": "내일부터 ‘스시자로’ 국내 반입 가능, 3개월분까지 허용 - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdlpQUGZUcE1DcHFYVm5oMXpzaFhyX3RPU1FOU3RtZ0o1M2NDVXJQY0VQWUsyclpPY1N3bVA2Rm5FbE8wSDFRVlVZYV9CSnRmazhLWURsX3FFcW9mcjdMaDAwamVsMHhwYVh3MWlzVmc4NmlLZ0g5Vy1JRnE1dVdtck5KVjNWLTdQY2dnWFktNA?oc=5"
+      "title": "반도체 호황에도 깊어진 양극화…범정부 TF로 격차 완화 나선다 - 한겨레",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE40WVF6NlNzZVV4SW13ckxieklWSHU1YTRMSW0xRmt1dkFfY2IwaENQc24tNVJQZFVnakwzWTBaNnFPTEV2M3IxeXlybnZCeld0ekxZaHp5eVFxQ1VfbFZ5NW1vcUdmUzVzbHhlQVFYeTNuQQ?oc=5"
     }
   ]
 }
