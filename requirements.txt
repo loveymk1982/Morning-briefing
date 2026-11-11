@@ -1,0 +1,5 @@
+anthropic>=0.39.0
+requests>=2.31.0
+icalendar>=5.0.11
+recurring-ical-events>=3.2.0
+feedparser>=6.0.11
