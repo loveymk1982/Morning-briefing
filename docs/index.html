@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="모닝 브리핑" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="theme-color" content="#0f172a" />
+  <title>모닝 브리핑</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --border: #334155;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Apple SD Gothic Neo", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 20px 16px 48px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    header {
+      margin-bottom: 20px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--border);
+    }
+    .badge {
+      display: inline-block;
+      font-size: 12px;
+      color: var(--accent);
+      background: rgba(56, 189, 248, 0.12);
+      padding: 4px 10px;
+      border-radius: 999px;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+    h1 { font-size: 22px; font-weight: 700; }
+    .updated { font-size: 12px; color: var(--muted); margin-top: 4px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 18px;
+      margin-bottom: 16px;
+    }
+    .card h2 {
+      font-size: 15px;
+      color: var(--accent);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .weather-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 15px;
+    }
+    .temp-now { font-size: 28px; font-weight: 700; }
+    .summary-text {
+      white-space: pre-wrap;
+      font-size: 15px;
+      color: #e2e8f0;
+    }
+    ul.list { list-style: none; }
+    ul.list li {
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      font-size: 14px;
+    }
+    ul.list li:last-child { border-bottom: none; }
+    .time-pill {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--accent);
+      margin-right: 8px;
+    }
+    a.news-link {
+      color: var(--text);
+      text-decoration: none;
+    }
+    a.news-link:hover { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <header>
+    <span class="badge">AI MORNING BRIEFING</span>
+    <h1 id="date-title">모닝 브리핑 불러오는 중...</h1>
+    <div class="updated" id="updated-at"></div>
+  </header>
+
+  <section class="card" id="weather-card">
+    <h2>🌤️ 오늘 날씨</h2>
+    <div class="weather-row" id="weather-content">날씨 정보를 불러오는 중입니다.</div>
+  </section>
+
+  <section class="card">
+    <h2>✨ 클로드 아침 브리핑</h2>
+    <div class="summary-text" id="summary-content">아직 생성된 브리핑이 없습니다. GitHub Actions에서 첫 실행(Run workflow)을 진행해 주세요!</div>
+  </section>
+
+  <section class="card" id="events-card">
+    <h2>📅 오늘의 일정</h2>
+    <ul class="list" id="events-list">
+      <li>등록된 일정이 없습니다.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>📰 주요 뉴스 헤드라인</h2>
+    <ul class="list" id="news-list">
+      <li>뉴스 정보를 불러오는 중입니다.</li>
+    </ul>
+  </section>
+
+  <script>
+    async function loadBriefing() {
+      try {
+        const res = await fetch('./data.json?t=' + Date.now());
+        if (!res.ok) throw new Error('data.json 로드 실패');
+        const data = await res.json();
+        if (!data || Object.keys(data).length === 0) return;
+
+        document.getElementById('date-title').textContent = data.date_label || '오늘의 모닝 브리핑';
+        document.getElementById('updated-at').textContent = data.updated_at ? `업데이트: ${data.updated_at}` : '';
+
+        if (data.weather && data.weather.temp_now !== null && data.weather.temp_now !== undefined) {
+          const w = data.weather;
+          document.getElementById('weather-content').innerHTML = `
+            <div class="temp-now">${w.temp_now}°C</div>
+            <div>최저 ${w.temp_min}°C / 최고 ${w.temp_max}°C · 강수확률 ${w.rain_prob}%</div>
+          `;
+        }
+
+        if (data.summary) {
+          document.getElementById('summary-content').textContent = data.summary;
+        }
+
+        const eventsList = document.getElementById('events-list');
+        if (data.events_hidden) {
+          eventsList.innerHTML = '<li>일정 비공개 모드(PUBLISH_EVENTS=false)가 설정되어 있습니다.</li>';
+        } else if (Array.isArray(data.events) && data.events.length > 0) {
+          eventsList.innerHTML = data.events.map(ev =>
+            `<li><span class="time-pill">${ev.time}</span>${ev.title}</li>`
+          ).join('');
+        } else {
+          eventsList.innerHTML = '<li>오늘 등록된 일정이 없습니다.</li>';
+        }
+
+        const newsList = document.getElementById('news-list');
+        if (Array.isArray(data.news) && data.news.length > 0) {
+          newsList.innerHTML = data.news.map(n =>
+            `<li><a class="news-link" href="${n.link}" target="_blank" rel="noopener noreferrer">${n.title}</a></li>`
+          ).join('');
+        }
+      } catch (err) {
+        console.warn(err);
+      }
+    }
+    loadBriefing();
+  </script>
+</body>
+</html>
