@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-11-13 07:42 KST",
-  "date_label": "2026년 11월 13일 (금)",
+  "updated_at": "2026-11-14 07:40 KST",
+  "date_label": "2026년 11월 14일 (토)",
   "weather": {
-    "temp_now": 7.5,
-    "temp_max": 15.5,
-    "temp_min": 7.5,
-    "rain_prob": 20
+    "temp_now": null,
+    "temp_max": null,
+    "temp_min": null,
+    "rain_prob": 0
   },
   "summary": "AI 요약을 생성하지 못했습니다. Google AI Studio API 키를 확인해 주세요.",
   "events": [],
   "events_hidden": false,
   "news": [
     {
-      "title": "‘조작징계 의혹’ 폭로에…‘한동훈 복당’ 놓고 국힘 사분오열 - 한겨레",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PWVF6QkNDeU5pWTkzdjNNQ1RIMzVMMDhJQTJvX0JUMjdHcXpXLTVsNlRUb2l3c3d3OVQ0dE5XUW1xSmtCVkh0cEdXRzZJMS13ZUNFMWtNWHpNZTBlNFRiM1BHWi1tVEx2Wmc?oc=5"
+      "title": "‘쌈짓돈’ 논란 미래기금… 국회 “25조 늘려 달라” - 동아일보",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5oQndpQ1FreFlpejFUWWlmWWpGMERTNm5Yd1pyeE03VkRha05Cc1FGSllTZVJoc1oteUFIUHgzVlAzeVZ4dTUxaTNMMTZBMVFNV1JZS0ZrOGNBdVhBVi1aQ3NJSVk5bExhVDhGSzVxT3VfUUZnM2pj0gFmQVVfeXFMTmpVQnpYaW5URmdfekFraElHOGQ4OUpWVVRLSEFpMHYxcDB3NWhtSkRycXJpZUJTU3YzZ2FONnpranVFRlVtS2wxaUpZVnVRTjRwRjdaOWp4MkJOX3otaWl3RmNCYzZR?oc=5"
     },
     {
-      "title": "이용철, 성남진흥재단 대표때 ‘대장동-위례’ 육성사업 제시 - 동아일보",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5RT2NHdll2Q19OQTBiaWIxU2pvX1NoMnBJZEo1N3d1TFQ5dmRUdjlHS3BjbVZUMHpZZDdGb1hCWHZPVXlpNkRzT0hzZi1GejUwUUxmU1UwYWwxQXRsLWdVVkVWcm1jWmZCbnpQN2xuSlBtNktLbENV0gFmQVVfeXFMTVdfSWRsY2ZSVDlEYllUTm1keTVoMVpsbmNWXzM0dzZoSmw0MEJtZVI4M2RScUhoZnZhMkszNVFmbUp5TEpUM1psT1FIU3gzRXNERDNMMDU1SHVvMzZoVHBmWlpXN3pn?oc=5"
+      "title": "조현, 중국에 ’한반도 문제’ 역할 당부…왕이 “정책 변함없어“ - 연합뉴스TV",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5kRUFJVU5PVFdhNjJyMjlUaWFFVkVsak5tSDEydzJ0ZUtMQ0M2UjdwMnc4RGhSZ0tiLUZfaEtzVjFIcnRlRGFJWkdfOGlVaVNfTzF1SmludS1ua2pGTmM2N040ZEtrZ1k?oc=5"
     },
     {
-      "title": "반도체는 ‘전격전’, 마을엔 ‘날벼락’…물길·전깃길 위의 사람들 - 경향신문",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81ZzdnamRid2VCUGZlclI1V1h5QXhDM1lRc25tRXdBWklzZjVZaWRkSVlhNHlsTGN3Ty1BSGQwZDBQOHVydUcwTU9KSm51RjE5MGRVc2JqYTZCUdIBX0FVX3lxTFBqbS12UGtobmdiVkxtQlR2ck0yNU10WXVaNnktVFpZV0ZDZXM4Vks1Y1RMTHFfcXZ6ckp5RmMyZTVUd2hLWkR0NmtBcTdoMUNybkd2VjBLZGlqMkNkb0JV?oc=5"
+      "title": "\"AI 안경 쓴 거 맞네\" 댓글 달았다간…무서운 '경고' [법알못] - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XSlNMc0xBak4xUVhuWmptSmpZc3pmcy12bUc4ZU1xZDlyVjZhUGJZd3JoY2ZvMlg0SmtUUENad3NfdUhXWTRDYUlOVGl0RUpzc0laYkdEWVV3dw?oc=5"
     },
     {
-      "title": "트럼프 \"이란과 합의 필요 없다\" 급선회…국제유가 급등 - 연합뉴스TV",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wUDJ1VUhZbktwb2RFci0zQzZ6NmdjZUY5WEFXU2xHbF8zc2d0Wk9oUmduX3VWSUdRMjk5VmRna2JwYzU0S0laeG91QWQ0cUtvTWNuelNCMjh6VU90SlZGY3U1bFFBNE0?oc=5"
+      "title": "외교부, 이란 “뱁새가 황새…” 경고에 “전쟁 불관여” 재차 강조 - 한겨레",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE95WXBiWlRCRV9JUjBSc0h4aWR4dFdRTGlXNlRQUWUzSW5SUEoybzNRaU56MjRNQm9ESjFfN3ItdHpma090TnlkT29ZbjRoMExBXzJxY005UUZQUlJqNDlSTFM3a0hvTFFIRVV1R25ZNmlOR0k2?oc=5"
     },
     {
-      "title": "오후 남부지방부터 비, 서울 낮 기온 17도 - KBS 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9PNUsxTWRWaFZ2NVBwWjFvLWFvTWQ0amZWQWZMek5MclpjQjNwQkNzam54bmhSRjctZFJrM1FHR2pDa2lpWDdGRE42ZVBsdUlqUy1wczBPdHl5dHM?oc=5"
+      "title": "A양은 그날 왜 공유 숙소로 향했나···성북 10대 여성 살인사건의 재구성 - 경향신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBGQ3RmYWlmd1VnbXFuS294NVZ1bGlxdERPWkJzT1pEMDhHZFcyNkdxNGkxOVZtenNvTlZjbWEzYjFfcG5YbFBBS044b3I2UnNiN0N5dnZRdWp1UdIBX0FVX3lxTE5fbXZqR0ZaZjZNd0tVOW14d1BxWnFfdU9jblI0c2x5OVdoVUdmb3hMWV83X3JHWnZxLVphLS10Y0gxU1BmNU1nS0xZdlZta0trdkpkSV8tVEJXbG9xRnJR?oc=5"
     }
   ]
 }
