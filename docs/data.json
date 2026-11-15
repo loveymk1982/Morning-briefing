@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-11-15 07:34 KST",
-  "date_label": "2026년 11월 15일 (일)",
+  "updated_at": "2026-11-16 07:36 KST",
+  "date_label": "2026년 11월 16일 (월)",
   "weather": {
-    "temp_now": 8.9,
-    "temp_max": 15.7,
-    "temp_min": 7.4,
-    "rain_prob": 24
+    "temp_now": 6.8,
+    "temp_max": 15.8,
+    "temp_min": 6.6,
+    "rain_prob": 2
   },
   "summary": "AI 요약을 생성하지 못했습니다. Google AI Studio API 키를 확인해 주세요.",
   "events": [],
   "events_hidden": false,
   "news": [
     {
-      "title": "이 대통령, 천준호에 “고생 많았다···등 뒤에서 날아오는 화살 가장 힘들어” - 경향신문",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDY1k4c1l6MzM4WW8xMGFaZTlqVWpGVXppdWgtbzFLMlo2VEU0Q0RTamNxeVREZFZjRHIwLTZES0J4TUJXRVBSRi1MOHlzaGpQaXJZTUZKcUN2QdIBX0FVX3lxTFBFbHhHRHQ2TUV5elZ5OC0wSlN5R3BVR1p6MTExWjRBQmZGZ1IyRWpLdzloazNkVUpZWE9xMm5fMExYclNUcDlwcWk5aHlramRGSW92a21kTnFuZDYyRHo4?oc=5"
+      "title": "세무사 시험도 ‘AI 커닝’, 공정성 무너져… 수능 사흘앞 비상 - 동아일보",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9BWGtXS2UxVUxkSXZUOVNEaFJfVmNNV0w5OXFjQXc2X1dOUmliUTd0TFZyRS1RNktqYmthX3ZIbTVGOFI1OENqVHBiUWpGd3lVX1hITVIwR184YTZrN1ZUQUNfQ3JxRUM0bGF4a2lmVkVUREdqdWfSAWZBVV95cUxOdmNPbUVyRENRTV9zallRMTZEbDJUZ09meFl6S1NocV9XN2t1aWg4elhSMTA4TTRGY09Na0Y2aGxsYXY5R0lzYU8wMTZVSlcxS2xETzlMejJacl9MYjJvNkZTUGdkZXc?oc=5"
     },
     {
-      "title": "강원 동해안·제주 곳곳에 비…전라·경북 내륙 짙은 안개 - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE85SHh6VjUwN1JFd3ZPQncwUUhfb2JnSHRpMl9YWFNicG9rdl9McWNMSXhGTm5sekNuOE95aVFFbV9iQVZ0WWtBMDB4RjFjUzRCMERSN3RpVWQyTXPSAWBBVV95cUxPdVpQVm1qUjRId1dqRGZhbGk2SVFNVWttWG5udFBOdGltaW5LVjFxak1vanV0alUxWmhmVGVwc3IxSm8xVnJudEFiTnNlVFhYU0MxVFJzbWszM0ozNmxCQko?oc=5"
+      "title": "‘내란범 한덕수’ 구속만료 D-5, 만기 석방 막을 시나리오 세 가지 - 경향신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yTlV4bkJYanVDdkU4aE16UDdoVmlkQ2k0UnlOSy11T3Iwa3MtdkJ4b19zdFpmZHd2NVNoMXlSS25WLUdsOU1qSnc5WkZyYWdjRTVYOERZdGJuZ9IBX0FVX3lxTE1QTmpkM1d2QTlUOS1DWWZ6OVNQSXNQNGR6dklONTVLS2Y4UlpjTGx2bEFRZXM5OEtDTTFHM3ZSWkx1NGo3WERsQ3BSbE1qWURzVVhPbnF5TU9NSlBCM1A4?oc=5"
     },
     {
-      "title": "미국 “19일 중국서 미·중·러 정상회담”…트럼프-김정은 회담은 불발 전망 - 한겨레",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VYjhxNE9MMzVIUXJRNWtnQjluUklaVllNRGVLamFIWjJxUkJRZTQ4ODEtVElCYUF3SkxRS1kyeDE0Tld2bW54ODgtZ0w1dmtIYXFsZTJMZDMyVEJ0TW5KQ1NtYVYwU04waHItVU1ROFFkN1U0?oc=5"
+      "title": "국힘 “재명아 감방가” “쓰레기 같은 짓” 막말에…민주 “전광훈·전한길인가” - 한겨레",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Ya0dkSGk3Y1RCLUdFeVVHX2otLUtlOE1fcUhWNm5iVV9mNmVkSHFfUzVfWU9XQm5QaHE5ZlJqWTc1RGl0NG80QkdhYTBSZGp5N1phODJFcVVFMk1tbjVDYXVlSGJ0aG84REFJNTVPSHR1UE91?oc=5"
     },
     {
-      "title": "추가폭로 속 친한계 징계소송 판결도 임박…국힘 내홍확산 기로 - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ya2p1M3R5QmlEcndaWWF2VnM0TllYNnQ4WWVfZUxnT1YyRzdrMDN5eHVYOUppa2hSSFNEcE9MWTlMSm9OQ2wzRE9Oa1lNTnZOZDRFM0F5OHVqNnfSAWBBVV95cUxQZXR3V1pGTGJxQjFveERGdzk5LWduSFIwZmFMT3BPTWxpTmtWcUROcUZjamREWFJUSGhPeURGckF1VktqaXFzMTVUOUVkcXlKM2NHZGppZDZueUZJSVRoR1A?oc=5"
+      "title": "트럼프, 전국 항공편 마비 사태에 \"관제 시스템 전면 개편 예산 승인해야\" - VOA 한국어 홈페이지",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5TTlFtSncxeElWU0U2LVFuNnJ2eHMyTjVpLUpkZDcxSXpkeFBfd3JlU09YcXY2NGVsLXFOZW1FOWdjVVlXTzc4bElrbkI3TlFY0gFTQVVfeXFMTkFTbVMwWlRGbzhoMWtveERrOUR0RV9TdU43dE14OU9La2FOdTdRRzZmeEY3NC1TVGNYd0J4V18xajVBY0J5T21kbjJGdUM4RVoyNDQ?oc=5"
     },
     {
-      "title": "한동훈 “최민희, 우기면 추하다…이 대통령·윤 재판 똑같다더니” - 한겨레",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOQkRkS3YwX3ctSnBZZk5jZkxCaEtRck9kQUp2LW94NVBFR2taeEtSU2s0cWJMa25DdHZzaTFHVEhXOG9UYllWRmlqVmU3MFpranQxMFhEaThORjFJYkNuMUc3MUhKd3dJMEhPWkcxVWN4VXRI?oc=5"
+      "title": "\"李가 尹탄핵 반대\" \"통일교, 김민석 밀어\"… 내분 불붙인 최민희 입 - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOall3aGwwbG1DNEdGNnk0VW4zZFBlalVta0t3Z2NMQ0NfSmFJOXZiVk5rS2JWTHplUE5kanhKVG55VDdNWmJVRWhOUk5Pa29YOE5kMkVzbUNUdzh2eTlkQ3pTMnZtTGR1SlpZRVdfNDB3b21HOEhreTdCV0xJVkJLQjJfczd5UQ?oc=5"
     }
   ]
 }
