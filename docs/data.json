@@ -1,35 +1,23 @@
 {
-  "updated_at": "2026-11-16 07:36 KST",
-  "date_label": "2026년 11월 16일 (월)",
+  "updated_at": "2026-11-17 07:44 KST",
+  "date_label": "2026년 11월 17일 (화)",
   "weather": {
-    "temp_now": 6.8,
-    "temp_max": 15.8,
-    "temp_min": 6.6,
-    "rain_prob": 2
+    "temp_now": null,
+    "temp_max": null,
+    "temp_min": null,
+    "rain_prob": 0
   },
   "summary": "AI 요약을 생성하지 못했습니다. Google AI Studio API 키를 확인해 주세요.",
-  "events": [],
-  "events_hidden": false,
-  "news": [
+  "events": [
     {
-      "title": "세무사 시험도 ‘AI 커닝’, 공정성 무너져… 수능 사흘앞 비상 - 동아일보",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9BWGtXS2UxVUxkSXZUOVNEaFJfVmNNV0w5OXFjQXc2X1dOUmliUTd0TFZyRS1RNktqYmthX3ZIbTVGOFI1OENqVHBiUWpGd3lVX1hITVIwR184YTZrN1ZUQUNfQ3JxRUM0bGF4a2lmVkVUREdqdWfSAWZBVV95cUxOdmNPbUVyRENRTV9zallRMTZEbDJUZ09meFl6S1NocV9XN2t1aWg4elhSMTA4TTRGY09Na0Y2aGxsYXY5R0lzYU8wMTZVSlcxS2xETzlMejJacl9MYjJvNkZTUGdkZXc?oc=5"
+      "time": "10:00",
+      "title": "★[총괄부회장님&사장님]외부인사..."
     },
     {
-      "title": "‘내란범 한덕수’ 구속만료 D-5, 만기 석방 막을 시나리오 세 가지 - 경향신문",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yTlV4bkJYanVDdkU4aE16UDdoVmlkQ2k0UnlOSy11T3Iwa3MtdkJ4b19zdFpmZHd2NVNoMXlSS25WLUdsOU1qSnc5WkZyYWdjRTVYOERZdGJuZ9IBX0FVX3lxTE1QTmpkM1d2QTlUOS1DWWZ6OVNQSXNQNGR6dklONTVLS2Y4UlpjTGx2bEFRZXM5OEtDTTFHM3ZSWkx1NGo3WERsQ3BSbE1qWURzVVhPbnF5TU9NSlBCM1A4?oc=5"
-    },
-    {
-      "title": "국힘 “재명아 감방가” “쓰레기 같은 짓” 막말에…민주 “전광훈·전한길인가” - 한겨레",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Ya0dkSGk3Y1RCLUdFeVVHX2otLUtlOE1fcUhWNm5iVV9mNmVkSHFfUzVfWU9XQm5QaHE5ZlJqWTc1RGl0NG80QkdhYTBSZGp5N1phODJFcVVFMk1tbjVDYXVlSGJ0aG84REFJNTVPSHR1UE91?oc=5"
-    },
-    {
-      "title": "트럼프, 전국 항공편 마비 사태에 \"관제 시스템 전면 개편 예산 승인해야\" - VOA 한국어 홈페이지",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5TTlFtSncxeElWU0U2LVFuNnJ2eHMyTjVpLUpkZDcxSXpkeFBfd3JlU09YcXY2NGVsLXFOZW1FOWdjVVlXTzc4bElrbkI3TlFY0gFTQVVfeXFMTkFTbVMwWlRGbzhoMWtveERrOUR0RV9TdU43dE14OU9La2FOdTdRRzZmeEY3NC1TVGNYd0J4V18xajVBY0J5T21kbjJGdUM4RVoyNDQ?oc=5"
-    },
-    {
-      "title": "\"李가 尹탄핵 반대\" \"통일교, 김민석 밀어\"… 내분 불붙인 최민희 입 - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOall3aGwwbG1DNEdGNnk0VW4zZFBlalVta0t3Z2NMQ0NfSmFJOXZiVk5rS2JWTHplUE5kanhKVG55VDdNWmJVRWhOUk5Pa29YOE5kMkVzbUNUdzh2eTlkQ3pTMnZtTGR1SlpZRVdfNDB3b21HOEhreTdCV0xJVkJLQjJfczd5UQ?oc=5"
+      "time": "12:00",
+      "title": "★[총괄부회장님&사장님]기능전략..."
     }
-  ]
+  ],
+  "events_hidden": false,
+  "news": []
 }
