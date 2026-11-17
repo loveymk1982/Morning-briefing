@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-17 07:44 KST",
-  "date_label": "2026년 11월 17일 (화)",
+  "updated_at": "2026-11-18 07:51 KST",
+  "date_label": "2026년 11월 18일 (수)",
   "weather": {
     "temp_now": null,
     "temp_max": null,
@@ -8,16 +8,28 @@
     "rain_prob": 0
   },
   "summary": "AI 요약을 생성하지 못했습니다. Google AI Studio API 키를 확인해 주세요.",
-  "events": [
+  "events": [],
+  "events_hidden": false,
+  "news": [
     {
-      "time": "10:00",
-      "title": "★[총괄부회장님&사장님]외부인사..."
+      "title": "세무냥이 ‘AI 커닝’은 업무방해죄? 시험 부정 엄벌할 특별법 필요할까 - 경향신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mOF9WajZFT2habkxTV3FQa1hZU1hnUmZnVkhvNWVXa0pmekRrdzF6Slh0ZklxOTVoZG5ISUg0Ynl0T2dTTzJUN281VC1tT3YzS3JXWWplb01QUdIBX0FVX3lxTE9zOVN0RWM3ZVMxY1E3X1RkV1ZXTzZNb2ZWZ0lKdGJrZ1hYM1JEM1FscDUxVHhEVU1IZ2RsWmp1Y1hqVHJ2SW1KamhWYUJ1Sjl3bWQxV2VJUkNqbmNoTDdV?oc=5"
     },
     {
-      "time": "12:00",
-      "title": "★[총괄부회장님&사장님]기능전략..."
+      "title": "‘최민희 징계’ 놓고… 지도부 이어 與 초선들도 둘로 쪼개졌다 - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTG5DSHc5UmtwVERqWkM5dHo2LWpwR3hERGptYlhzS094LTFPVUpQOGVVZ29OS3o2RXZGaVhGWGtWS1NWT1lCb0tNNzRsVWNFMTVENGo5N0U4ME9tTHpkQ2h4bG4tNXZQRkFjMzhaNTIxT2Z2TEhaTDVVWGxOdnJOblVtU04xUQ?oc=5"
+    },
+    {
+      "title": "쌀쌀한 수능 예비소집일···오후에는 비 소식도 - 경향신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBoUHhadzQxS3VxRXJYaFpCWjhjWDV0MG9jVjhTZURSSXM3WUNlZkRySllmeWNVci1lZDhITk9kU1JPRENzMTB3UkxONkFERzdKVmF0UmRQTXJ5QdIBX0FVX3lxTFBOOXB5WXBPR25aZU5NT2t5c0h2bUZNdER4eTMtbmxfd3JSTUFoRXZDM3RGWXRkYklYNmQ0bTFpYmlqNWNvZTZob2xzbEtFcVY1ZWs1RmNWWl8tSkVhRmRV?oc=5"
+    },
+    {
+      "title": "김정은 ’선전 북미회담’ 전망 분분…“中 전용기 탈 수도“ vs “얻을 것 없어“ - 연합뉴스TV",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0zM2JDRHJYSWZ0SGhxdWpVZVRfbWh1dnNSNHp2QWxwWkhZQVoyMC01U0syQlFFVkJ0cUJJenUtQTZMbk9VRUxRN1R5ZTY2ZGo5QzJPOGh1Rm83ZDBqRHlEV1dUUkVNM3M?oc=5"
+    },
+    {
+      "title": "LEET 만점자 AI 커닝 의혹에…서울대 수능 만점자 \"같이 풀자\" - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4cndqVFNBTUl2em9iMnphY2Etc3MyNGtYamwxTFE5N0hPZFh3WUpIVEZ0YTgxM1B0TERVdHNpTE1UbHZZWHJoVExqWmtfMnZwaXM3eUZGUWFQUQ?oc=5"
     }
-  ],
-  "events_hidden": false,
-  "news": []
+  ]
 }
