@@ -1,35 +1,40 @@
 {
-  "updated_at": "2026-11-18 07:51 KST",
-  "date_label": "2026년 11월 18일 (수)",
+  "updated_at": "2026-11-19 07:50 KST",
+  "date_label": "2026년 11월 19일 (목)",
   "weather": {
-    "temp_now": null,
-    "temp_max": null,
-    "temp_min": null,
+    "temp_now": -1.0,
+    "temp_max": 4.7,
+    "temp_min": -1.3,
     "rain_prob": 0
   },
   "summary": "AI 요약을 생성하지 못했습니다. Google AI Studio API 키를 확인해 주세요.",
-  "events": [],
+  "events": [
+    {
+      "time": "17:30",
+      "title": "☆[사장님]현대위아 임원사간담회"
+    }
+  ],
   "events_hidden": false,
   "news": [
     {
-      "title": "세무냥이 ‘AI 커닝’은 업무방해죄? 시험 부정 엄벌할 특별법 필요할까 - 경향신문",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mOF9WajZFT2habkxTV3FQa1hZU1hnUmZnVkhvNWVXa0pmekRrdzF6Slh0ZklxOTVoZG5ISUg0Ynl0T2dTTzJUN281VC1tT3YzS3JXWWplb01QUdIBX0FVX3lxTE9zOVN0RWM3ZVMxY1E3X1RkV1ZXTzZNb2ZWZ0lKdGJrZ1hYM1JEM1FscDUxVHhEVU1IZ2RsWmp1Y1hqVHJ2SW1KamhWYUJ1Sjl3bWQxV2VJUkNqbmNoTDdV?oc=5"
+      "title": "청와대 “한한령 해제에 진전, K팝 공연 협의 채널도 열린 셈”…이 대통령, 시진핑에 “바둑 한번 둡시다” - 경향신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmSmg5TVhzaTBqaV9LZkVhMGFQTWFEUjNYM1RvM00tZXBiMTd4MVFucmpyZUJVX2xvVDQ4QjVjcnRFRzBmMzE3RHpEN2NuWjNuNWc5MG81bWJYQdIBX0FVX3lxTE1mSE1teElmaW9hVE13cThvbWpUbGRRWU5GTjYtdm1VQlFla3ZXZFROLWdBVGtXZUdvUTgzc1E3NmZFR2hUX3UwOVBZUm5ycGtibHRCMjBJWDM0eEtSWkdr?oc=5"
     },
     {
-      "title": "‘최민희 징계’ 놓고… 지도부 이어 與 초선들도 둘로 쪼개졌다 - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTG5DSHc5UmtwVERqWkM5dHo2LWpwR3hERGptYlhzS094LTFPVUpQOGVVZ29OS3o2RXZGaVhGWGtWS1NWT1lCb0tNNzRsVWNFMTVENGo5N0U4ME9tTHpkQ2h4bG4tNXZQRkFjMzhaNTIxT2Z2TEhaTDVVWGxOdnJOblVtU04xUQ?oc=5"
+      "title": "학생들은 ‘연필 당황’, 학교는 ‘스티커 대란’…수능 하루 전 대혼란 - 한겨레",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0welhNa2xPVnpnd1A3cmRfVmhIZGxzNlh5N0t4b2Z6TWg4RGc0VTNON042MVd1Qk5yTjlHaHhMV19BQXlLR1pENlNqQ3hjanp6cWItYTZYTlRqYkFnWjZPRUNraE9kMkZMOUE?oc=5"
     },
     {
-      "title": "쌀쌀한 수능 예비소집일···오후에는 비 소식도 - 경향신문",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBoUHhadzQxS3VxRXJYaFpCWjhjWDV0MG9jVjhTZURSSXM3WUNlZkRySllmeWNVci1lZDhITk9kU1JPRENzMTB3UkxONkFERzdKVmF0UmRQTXJ5QdIBX0FVX3lxTFBOOXB5WXBPR25aZU5NT2t5c0h2bUZNdER4eTMtbmxfd3JSTUFoRXZDM3RGWXRkYklYNmQ0bTFpYmlqNWNvZTZob2xzbEtFcVY1ZWs1RmNWWl8tSkVhRmRV?oc=5"
+      "title": "[워싱턴 인사이트] “트럼프 대통령, 미·중·러 3자 핵 논의에 진심…전략적 과제는 여전” - VOA 한국어 홈페이지",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE02RUFaSU9UdnpGd01fbTY1RHFIX2FrT1JXSFFscG1OeWQxY2NUSHJWbmdOUDJ5UzluelpUalRVYVlUOHRmY1lGU2FUQUxNUmJ50gFTQVVfeXFMT1NjX3ViNlV4eFlwSlNTTEp3Nl8wT1ZvY21vUkdqaVdqczFrTnEtUTdKQl9HdGQzM2tzU05jTEp0aDBHd244d184bUdzNFl1TlFQTjQ?oc=5"
     },
     {
-      "title": "김정은 ’선전 북미회담’ 전망 분분…“中 전용기 탈 수도“ vs “얻을 것 없어“ - 연합뉴스TV",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0zM2JDRHJYSWZ0SGhxdWpVZVRfbWh1dnNSNHp2QWxwWkhZQVoyMC01U0syQlFFVkJ0cUJJenUtQTZMbk9VRUxRN1R5ZTY2ZGo5QzJPOGh1Rm83ZDBqRHlEV1dUUkVNM3M?oc=5"
+      "title": "\"리트 만점자 이진우씨 수능 시험지 폐기됐을 수도\" - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUWtpQ0JZNnY0NEh2c1dUbGs2TXgxVVdfM2psZENHek8xQkZCNkw4ZUgzUS14SXIxWTFSeVVGRnUzcDZ0QUZUQ3JVVEt3aFNhOXNNYW90VEFEdGdVeGJLcGRvWDBfdDM2NFNjYU9kemZaWnExc2F4U1lrbEhRal9SSHhBOUR6UkNlSWJwUjJ2WUY?oc=5"
     },
     {
-      "title": "LEET 만점자 AI 커닝 의혹에…서울대 수능 만점자 \"같이 풀자\" - 한국경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4cndqVFNBTUl2em9iMnphY2Etc3MyNGtYamwxTFE5N0hPZFh3WUpIVEZ0YTgxM1B0TERVdHNpTE1UbHZZWHJoVExqWmtfMnZwaXM3eUZGUWFQUQ?oc=5"
+      "title": "[단독] 사진찍으려 차도로 나오는 관광객들···효자로 단풍길에 ‘붉은 통제선’ 둘렀다 - 경향신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83S1dBcWRRa1VhZjFXX1drSHNBUk1yekRCV3pmUkFMVm9GeUNCUkdQcEhKU3V5RngzODhXOGZ2c2ZqSE1uc3VqaENGSEZVY1pmVXN4a29jTVpVZ9IBX0FVX3lxTE9rVzJnNURacjh5b2NOZGk0TW9TdDFITlhuZVR3V2lucF9reTRGV2ZlVjVBc19sSkhfbGFhZ1ZmN2p6UFdjXzhRVE44RFh1YVk1Y0hJbFhsdUgtdFQwNzdJ?oc=5"
     }
   ]
 }
