@@ -1,40 +1,35 @@
 {
-  "updated_at": "2026-11-19 07:50 KST",
-  "date_label": "2026년 11월 19일 (목)",
+  "updated_at": "2026-11-20 07:46 KST",
+  "date_label": "2026년 11월 20일 (금)",
   "weather": {
-    "temp_now": -1.0,
-    "temp_max": 4.7,
-    "temp_min": -1.3,
+    "temp_now": -3.4,
+    "temp_max": 1.1,
+    "temp_min": -3.5,
     "rain_prob": 0
   },
   "summary": "AI 요약을 생성하지 못했습니다. Google AI Studio API 키를 확인해 주세요.",
-  "events": [
-    {
-      "time": "17:30",
-      "title": "☆[사장님]현대위아 임원사간담회"
-    }
-  ],
+  "events": [],
   "events_hidden": false,
   "news": [
     {
-      "title": "청와대 “한한령 해제에 진전, K팝 공연 협의 채널도 열린 셈”…이 대통령, 시진핑에 “바둑 한번 둡시다” - 경향신문",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmSmg5TVhzaTBqaV9LZkVhMGFQTWFEUjNYM1RvM00tZXBiMTd4MVFucmpyZUJVX2xvVDQ4QjVjcnRFRzBmMzE3RHpEN2NuWjNuNWc5MG81bWJYQdIBX0FVX3lxTE1mSE1teElmaW9hVE13cThvbWpUbGRRWU5GTjYtdm1VQlFla3ZXZFROLWdBVGtXZUdvUTgzc1E3NmZFR2hUX3UwOVBZUm5ycGtibHRCMjBJWDM0eEtSWkdr?oc=5"
+      "title": "AI안경 쓰고, 폰으로 수능문제 촬영… 신발 속에 폰 숨기기도 - 동아일보",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE03RUlwWWVSN09SWlhteXhiVzR6THc0OGxZSVJRZDQyRnJMdUpMbFBMUk1KTjhvUFRmM1ljRkROTGFBemNDUFJ3SmE1Z1dVUkZDWWh3ODkzdG1IZFNaTzlBbmFpbE9ZSWNPNlh3X2puNVJMVUZVVmfSAWZBVV95cUxNVnhzTTdpdzd4dG8zZHpGdV9TdGFUMFRKZG01STBPQmZJeXhNeFF3dm9mV1JPV3dwS3NpVjhQTkx3Y2NraXRfNXhvZkJ6ME5qWWd5ZENYdkctTmdjZXFMeTNfYTRXVnc?oc=5"
     },
     {
-      "title": "학생들은 ‘연필 당황’, 학교는 ‘스티커 대란’…수능 하루 전 대혼란 - 한겨레",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0welhNa2xPVnpnd1A3cmRfVmhIZGxzNlh5N0t4b2Z6TWg4RGc0VTNON042MVd1Qk5yTjlHaHhMV19BQXlLR1pENlNqQ3hjanp6cWItYTZYTlRqYkFnWjZPRUNraE9kMkZMOUE?oc=5"
+      "title": "“국무회의 소집은 정당한 직무” vs “친위 쿠데타에 합법성 부여”···전합 한덕수 판결문 보니 - 경향신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE51QXhjUC1PWm52UlBYM0hVNFRaUHNvV1pzd0xoZ3lVa0x3UkZEQmVJLXFFX1hYdHpvZDRoN1duYTBuY2lPa3JJbHl2dHQ2c25YLVBPaTE5TE4tZ9IBX0FVX3lxTE92QmdEQ3hXRXh1QlpuamVKNHdGb3pJcVJSenpiaktUSUd4QjZjdzNTTHBfbGZvNVBRNFFaOVRtYzQ2ZmRzaGVSbHlQeXVySjRURVdkSWxwLURfWDM5SWFN?oc=5"
     },
     {
-      "title": "[워싱턴 인사이트] “트럼프 대통령, 미·중·러 3자 핵 논의에 진심…전략적 과제는 여전” - VOA 한국어 홈페이지",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE02RUFaSU9UdnpGd01fbTY1RHFIX2FrT1JXSFFscG1OeWQxY2NUSHJWbmdOUDJ5UzluelpUalRVYVlUOHRmY1lGU2FUQUxNUmJ50gFTQVVfeXFMT1NjX3ViNlV4eFlwSlNTTEp3Nl8wT1ZvY21vUkdqaVdqczFrTnEtUTdKQl9HdGQzM2tzU05jTEp0aDBHd244d184bUdzNFl1TlFQTjQ?oc=5"
+      "title": "미·중·러 첫 정상회담 ‘핵 위험 감소 대화’ 합의…트럼프, 미북 회동 확인 없이 귀국길 - VOA 한국어 홈페이지",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNDZwbnJHWnJuRVQwMDFwR1ctSjhrWmM1anFodDZsSlA1aG5zaV9ncFJVQlgwQzQtaDk5dzRuMUxRWXVycER2N25mV3pWMTFpQkh1Xy1ablVFMlM3MzBHeHpjOEpnNWhXU0hkRHRSTXcwU0J5RnNtTHdWNWdrZE9UMGdwVTRka01Ua1djT9IBjwFBVV95cUxQdjJmQ19KNFRzQ00yZ29hQmgzdWpQV3NUeDVWRXY3cGpPRVl6NTBTTW9NcGpzNF9DbndwbjZVeGlKRE9GN0xMTHUydXVmNTZFTDRLM1AyZWJOR3FVNXZGc0JPSW1aVzhDLVFTdGF0V0ZfeWs3TFBMNHNHNGNNWVQtcUFkZ3dfUV9feExLTEdIQQ?oc=5"
     },
     {
-      "title": "\"리트 만점자 이진우씨 수능 시험지 폐기됐을 수도\" - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUWtpQ0JZNnY0NEh2c1dUbGs2TXgxVVdfM2psZENHek8xQkZCNkw4ZUgzUS14SXIxWTFSeVVGRnUzcDZ0QUZUQ3JVVEt3aFNhOXNNYW90VEFEdGdVeGJLcGRvWDBfdDM2NFNjYU9kemZaWnExc2F4U1lrbEhRal9SSHhBOUR6UkNlSWJwUjJ2WUY?oc=5"
+      "title": "\"너 때문에 재수했잖아\"…리트 만점자 사망 뒤 나온 주장 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DMGF4T3hYMi1Dc0RLSlB6OEFwcHlQa0dEY1B6X2dDUmdrNzBWa0l1ay1mdGw3TkdXTnRUbU15WWRTX1g1ZFhFaEpKdkJBR1U0R0d5V3lTdW9GUQ?oc=5"
     },
     {
-      "title": "[단독] 사진찍으려 차도로 나오는 관광객들···효자로 단풍길에 ‘붉은 통제선’ 둘렀다 - 경향신문",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83S1dBcWRRa1VhZjFXX1drSHNBUk1yekRCV3pmUkFMVm9GeUNCUkdQcEhKU3V5RngzODhXOGZ2c2ZqSE1uc3VqaENGSEZVY1pmVXN4a29jTVpVZ9IBX0FVX3lxTE9rVzJnNURacjh5b2NOZGk0TW9TdDFITlhuZVR3V2lucF9reTRGV2ZlVjVBc19sSkhfbGFhZ1ZmN2p6UFdjXzhRVE44RFh1YVk1Y0hJbFhsdUgtdFQwNzdJ?oc=5"
+      "title": "이 대통령, 순방 중 ‘조작기소 특검법’ 재가 - 한겨레",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8waUs0RzVCRzU1aVZlaF9xd0tKc21pZlhyeTV2R05BeGE5OHo0U1JzOWZoTmZoZVJFMUQ0QWlCZzFKTlAzSG5hSEVsV216ZUsydzNOTnB4MGY4N2xzWnJnNDVaNTEyTUN0ejZuTmFOY0ZhSGlM?oc=5"
     }
   ]
 }
