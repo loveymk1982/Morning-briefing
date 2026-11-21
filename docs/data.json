@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-21 07:44 KST",
-  "date_label": "2026년 11월 21일 (토)",
+  "updated_at": "2026-11-22 07:37 KST",
+  "date_label": "2026년 11월 22일 (일)",
   "weather": {
-    "temp_now": -4.1,
-    "temp_max": 1.2,
-    "temp_min": -4.1,
+    "temp_now": -4.2,
+    "temp_max": 4.1,
+    "temp_min": -4.2,
     "rain_prob": 0
   },
   "summary": "AI 요약을 생성하지 못했습니다. Google AI Studio API 키를 확인해 주세요.",
@@ -12,24 +12,24 @@
   "events_hidden": false,
   "news": [
     {
-      "title": "이 대통령 \"수능 부정행위 철저 추적…국가시험 A부터 Z까지 개편\" - 대한민국 정책브리핑",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYdjNUaDNhT2dhYWpQYlFkNHhGMmIzMlFyem1mdXluMU1VY25ZN0ZzMWw4UGJWWGFJTjBVX1dDaUY4eUlaSUhPNkYxS3E2bWpaMXJXTkVhVUVBVjJsc25rT19JZmhEUXdXMWloMA?oc=5"
+      "title": "시험지만 남아있다면…과거 수능 부정행위 의심자도 추적 조사 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpS2JSZldDNmV2YkJ3VUhKMll3SW1fWm9yaTBTMXJSN3FXTUZMc3h0MU40em1hb3c0VlhaOXN2UGMtVDBaanAtZ3h2S3lWVnRRNU9JbFpHamNpRmPSAWBBVV95cUxQT2FzUFZONGQ5VUNZbVlqTExfYVhuSkxZalRPNUhDeUhldmpHTWVDRDVuRENKbzFHYnNIc1hEUnRHMzlCWjZmY3p2OFdjYzM3YTF2M0xWWkY5d2hJNWFHRHc?oc=5"
     },
     {
-      "title": "“한덕수, 계엄 전엔 절차 수호자, 직후엔 내란 가담자?”…친위 쿠데타에 악용된 국무회의 역사 [법정 417호, 내란의 기록] - 경향신문",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0tNlBLYXVBVmRyWFVWRGpKREwtQ2NKVS1YVzdLUzJPaUhfZ2hSZG1PdmpUQWFqcVhiWklkak5aMUZxTXJmM3BlYVotcXhaZTJZT2lva2QzN0ZYQdIBX0FVX3lxTFBmZDNLUkVHTDlKdXJsODBYaXROTkhTTFpzZFFpX2dtY3QtX2k3UzVUTjJUeTg5WlVrbUFlSUtMY0xZNVA3U1JrNGRFQkJKaTIwZnMxUy1HVzRaLXBjTUpN?oc=5"
+      "title": "얄타 2.0? 사상 첫 미·중·러 정상회담과 ‘동상삼몽’ - 한겨레",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNU9QWmF6eW43aWZnRk9HcVpqMXFYdkh6ZkdFZWdSVFdZVXdGSGFlRVpWWkduTGt1Z2haRXk0enI5a0MxMEtWUmQyc0o2b2ZSUEhLV05GYlRDVmp5eHdjVGlBRGZxSUg1emFmSm1la2ZrbDFfWkVYN2JDVlZhRHlFTExB?oc=5"
     },
     {
-      "title": "[금주의 관심인물] 'LEET 만점자' 故이진우·'AI 대책 논란' 최교진 - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1JbGo3RmtiSVRTNllHY2ZYZEhydVRuOU5NOXJ3Z3JuRWdFaHNMU0Q4Q1FWWUEtNDJ4VnA0eDh0dG5HYll3Q1lqLXVzdGY2N3dSZEVRVlNHWjBXVzTSAWBBVV95cUxOenlYS3hVWDhPcUpNWFYtTWtvZUZ1eGU5ZGZmbU1IcFJDOW5YT1NqTzcyQ2ljZ2wxTVNpdVhLd294SnMzbUdqQUpBWnVJREV3UE55VzIzREFrQVRVaE9iLTc?oc=5"
+      "title": "추미애 “한덕수 판결 순억지···조희대 탄핵, 좌고우면하면 안 돼” - 경향신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPNVFaY1lfYjNtai1VQkU3ZnJxOXFaRm1Eal81NXdScTF4VXNpdFpUMTJaUFNlTDkyYTBLanpHaUc0WW9NY05HcE81WV9CTWV6SWp4RmZ4WHV3Z9IBX0FVX3lxTE05MWhMNTBDWjdKOXdSNE5lbUZVQmpCUmpBQjZ2WEF5RFlkZmlUVXFKOGZockJENUt2Zmg0enZmTXpZV1N5UTZRN1UweXhMR2dnXzhoeU45M25ET010eHZr?oc=5"
     },
     {
-      "title": "26년 만에 민주유공자법 통과…민주화 운동 희생자·유족 의료비 등 지원 - 한겨레",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1LcVVqRjZodl9iWEgwVXpIcUpOUlVRcUw2UXpMbEkyZV9vcHFTaVFzSkJTTGYxcEFuWTY2WmVDVDM3Y3NNX0xVUk9OTkFpQlNQZ21BOTRNSW9XNXdiS3BXOGEycXpnWC1DaW1KU01sbzNnQ2Zo?oc=5"
+      "title": "\"논술·면접 보러 가야하는데\" 경부선 탈선…수험생 '발동동' - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tZDJTVlFseWJMZmF1Uzd2cmxmc3ZkWXp1TTlka2JGSUE5M0ZrWkYxZDFhYm5IY3JwSDNKa1ZVRHdmMUZyX0NVcXdPQUdtdEU5UUF1aDlYVmJxdw?oc=5"
     },
     {
-      "title": "트럼프 “한반도 위협 대응 논의”…미·중·러 정상회담 성과 강조 - VOA 한국어 홈페이지",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA4ZDR0b1Q3QmEwUG9sN3Y3NHhKeXIzUC1tNG5Tc3RtZXBkb3N4eV81eEJlYmdJOW5OOFpHcTdkS0xLR2x2VlZnRURlaDlTV19fLTJkbVdxLVdpVnhvcUNkRVRhT2dUdmo2NVl4VzZRcHo5LUV2NmVvdtIBe0FVX3lxTE53c1dhUXJHaTBSRThNUDhjdXdvNTdWMzdqSHVVcjZ4MUFKQjV6ZERGUFpNUms1SHM1QzM2UDZRa2hMYV9KWVhUdW0wZ0pYUVlaSDAwbnpQTlE5Ynh5NFd4OUtUSVh4NVlmYm4wSFI3ZnZWZzYxeF9OS0xCSQ?oc=5"
+      "title": "오늘도 추위 이어져…수도권·강원 등 건조특보 - KBS 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4tcGNxZWpEdm9paTFiT3hmcW9jTms4X1Y1c1NuTERfcFlaOHNVaTl6bU5NWEpoM1pnWEduc2hIeVVtdWZLSVpaOEFrRk9zZVc4bk1qdFFQZ2VCQ3M?oc=5"
     }
   ]
 }
