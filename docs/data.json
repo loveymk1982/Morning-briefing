@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-11-22 07:37 KST",
-  "date_label": "2026년 11월 22일 (일)",
+  "updated_at": "2026-11-23 07:41 KST",
+  "date_label": "2026년 11월 23일 (월)",
   "weather": {
-    "temp_now": -4.2,
-    "temp_max": 4.1,
-    "temp_min": -4.2,
-    "rain_prob": 0
+    "temp_now": 2.8,
+    "temp_max": 12.1,
+    "temp_min": 1.3,
+    "rain_prob": 100
   },
   "summary": "AI 요약을 생성하지 못했습니다. Google AI Studio API 키를 확인해 주세요.",
   "events": [],
   "events_hidden": false,
   "news": [
     {
-      "title": "시험지만 남아있다면…과거 수능 부정행위 의심자도 추적 조사 - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpS2JSZldDNmV2YkJ3VUhKMll3SW1fWm9yaTBTMXJSN3FXTUZMc3h0MU40em1hb3c0VlhaOXN2UGMtVDBaanAtZ3h2S3lWVnRRNU9JbFpHamNpRmPSAWBBVV95cUxQT2FzUFZONGQ5VUNZbVlqTExfYVhuSkxZalRPNUhDeUhldmpHTWVDRDVuRENKbzFHYnNIc1hEUnRHMzlCWjZmY3p2OFdjYzM3YTF2M0xWWkY5d2hJNWFHRHc?oc=5"
+      "title": "최교진, 수능 부정 무사안일 대처에 ‘나이’ 발언 겹쳐 결국 하차 - 한겨레",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zcjRvZ3A1QlAycVNZTVpXVk1tUFV0Sks2QUVBb0lORDBPNHlFQkl4Y05vLUtPR0NRSlFESFpfemJYSDBINGd5XzQ5TWEwZUlWOWs3bHZyUTVzMV9GaV9jejlmUFEtenU5OTAw?oc=5"
     },
     {
-      "title": "얄타 2.0? 사상 첫 미·중·러 정상회담과 ‘동상삼몽’ - 한겨레",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNU9QWmF6eW43aWZnRk9HcVpqMXFYdkh6ZkdFZWdSVFdZVXdGSGFlRVpWWkduTGt1Z2haRXk0enI5a0MxMEtWUmQyc0o2b2ZSUEhLV05GYlRDVmp5eHdjVGlBRGZxSUg1emFmSm1la2ZrbDFfWkVYN2JDVlZhRHlFTExB?oc=5"
+      "title": "법관회의 의장 \"曺탄핵 도 넘어… 의결한다면 우리도 행동 나서야\" - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOU2JqVG1zblJoaXpUZWxTRFh2MXJCYTh0MzUxaTdpMTVQdEp4YVFFR0pXd1RWVUdRMnA0Y1ljX0RrbjhGVWlxZG0xVUJIcFc2RkhMcWNZQTVBUXV0SGY3TFJWeXdIa2x3bTE2RUNpZVdCTVpYWURTanhOQ3czN21MX0h3T2M3MnJJQndzSFdhRHo?oc=5"
     },
     {
-      "title": "추미애 “한덕수 판결 순억지···조희대 탄핵, 좌고우면하면 안 돼” - 경향신문",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPNVFaY1lfYjNtai1VQkU3ZnJxOXFaRm1Eal81NXdScTF4VXNpdFpUMTJaUFNlTDkyYTBLanpHaUc0WW9NY05HcE81WV9CTWV6SWp4RmZ4WHV3Z9IBX0FVX3lxTE05MWhMNTBDWjdKOXdSNE5lbUZVQmpCUmpBQjZ2WEF5RFlkZmlUVXFKOGZockJENUt2Zmg0enZmTXpZV1N5UTZRN1UweXhMR2dnXzhoeU45M25ET010eHZr?oc=5"
+      "title": "트럼프 간절하던 북미회담 …“북한이 수용불가 조건 제시” - KBS 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1PY25QWERtLVJycUlXdXBGaTNyYUkwc2RFTkZUVXpKN0FIY1dxXzFRQ1B1QklZMWltT1lCalhjTTNDZ3FiZzR5LTFZSDFsMzlpanFRNHdvYnpwYzQ?oc=5"
     },
     {
-      "title": "\"논술·면접 보러 가야하는데\" 경부선 탈선…수험생 '발동동' - 한국경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tZDJTVlFseWJMZmF1Uzd2cmxmc3ZkWXp1TTlka2JGSUE5M0ZrWkYxZDFhYm5IY3JwSDNKa1ZVRHdmMUZyX0NVcXdPQUdtdEU5UUF1aDlYVmJxdw?oc=5"
+      "title": "인터넷 연결 안 하고 커닝…내년 ‘온디바이스AI’ 주의보 - 경향신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5WEtzdFJQc1EtQ1FMNDZubzRLTHdqUFBhLTVpZDRYaWc0Sk9hNi15ZkRmdWhUOGRCeDdvR01iYVlSX25iMjg0YWhPdEZuT2dnYzVXUlluOGljZw?oc=5"
     },
     {
-      "title": "오늘도 추위 이어져…수도권·강원 등 건조특보 - KBS 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4tcGNxZWpEdm9paTFiT3hmcW9jTms4X1Y1c1NuTERfcFlaOHNVaTl6bU5NWEpoM1pnWEduc2hIeVVtdWZLSVpaOEFrRk9zZVc4bk1qdFFQZ2VCQ3M?oc=5"
+      "title": "“아들, 핸드폰 엄마한테 주고 가”…논술시험장, 단추에 머리끈까지 살폈다 - 매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1PQlpkRUxSU0lONmJDZzN5OW5RQmMwZUlSbGlXdDNDMjF1LWZPN1VIREdTakRVYjZuajI2ZE5Ha0Jqb1hhOTJMc290M21ZVGd5LTlxbw?oc=5"
     }
   ]
 }
