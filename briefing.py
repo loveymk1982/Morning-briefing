@@ -1,18 +1,22 @@
-import datetime
 import json
 import os
+import datetime
 from zoneinfo import ZoneInfo
-
-import feedparser
-import icalendar
-import recurring_ical_events
 import requests
-from google import genai
+import feedparser
 
 KST = ZoneInfo("Asia/Seoul")
 
+NEWS_CATEGORIES = [
+    ("글로벌주식", "https://news.google.com/rss/search?q=%EB%AF%B8%EA%B5%AD%EC%A6%9D%EC%8B%9C+OR+%EA%B8%80%EB%A1%9C%EB%B2%8C+%EC%A6%9D%EC%8B%9C+OR+%EB%82%98%EC%8A%A4%EB%8B%A5+when:1d&hl=ko&gl=KR&ceid=KR:ko"),
+    ("경제", "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=ko&gl=KR&ceid=KR:ko"),
+    ("연예", "https://news.google.com/rss/headlines/section/topic/ENTERTAINMENT?hl=ko&gl=KR&ceid=KR:ko"),
+    ("스포츠", "https://news.google.com/rss/headlines/section/topic/SPORTS?hl=ko&gl=KR&ceid=KR:ko"),
+    ("정치", "https://news.google.com/rss/search?q=%EC%A0%95%EC%B9%98+OR+%EA%B5%AD%ED%9A%8C+OR+%EB%8C%80%ED%86%B5%EB%A0%B9+when:1d&hl=ko&gl=KR&ceid=KR:ko"),
+]
 
-def fetch_weather(lat: float = 37.5665, lon: float = 126.9780) -> dict:
+
+def fetch_weather(lat: float = 37.3800, lon: float = 126.8030) -> dict:
     url = (
         f"https://api.open-meteo.com/v1/forecast"
         f"?latitude={lat}&longitude={lon}"
@@ -37,100 +41,141 @@ def fetch_weather(lat: float = 37.5665, lon: float = 126.9780) -> dict:
         return {"temp_now": None, "temp_max": None, "temp_min": None, "rain_prob": 0}
 
 
-def fetch_calendar_events(ics_url: str, target_date: datetime.date) -> list[dict]:
-    if not ics_url:
-        return []
-    try:
-        cleaned_url = ics_url.strip().replace("webcal://", "https://")
-        resp = requests.get(cleaned_url, timeout=20)
-        resp.raise_for_status()
-        cal = icalendar.Calendar.from_ical(resp.content)
-        raw_events = recurring_ical_events.of(cal).at(target_date)
-        events = []
-        for ev in raw_events:
-            summary = str(ev.get("SUMMARY", "일정"))
-            dtstart = ev.get("DTSTART").dt if ev.get("DTSTART") else None
-            if isinstance(dtstart, datetime.datetime):
-                dt_kst = dtstart.astimezone(KST)
-                time_str = dt_kst.strftime("%H:%M")
-            else:
-                time_str = "종일"
-            events.append({"time": time_str, "title": summary})
-        events.sort(key=lambda x: x["time"])
-        return events
-    except Exception as exc:
-        print(f"[WARN] 캘린더 일정 조회 실패: {exc}")
-        return []
+def fetch_categorized_news(limit_per_cat: int = 5) -> dict[str, list[dict]]:
+    result: dict[str, list[dict]] = {}
+    for cat_name, rss_url in NEWS_CATEGORIES:
+        try:
+            feed = feedparser.parse(rss_url)
+            items = []
+            for entry in feed.entries[:limit_per_cat]:
+                items.append({
+                    "title": entry.get("title", ""),
+                    "link": entry.get("link", ""),
+                })
+            result[cat_name] = items
+        except Exception as exc:
+            print(f"[WARN] {cat_name} 뉴스 조회 실패: {exc}")
+            result[cat_name] = []
+    return result
 
 
-def fetch_top_news(limit: int = 5) -> list[dict]:
-    rss_url = "https://news.google.com/rss?hl=ko&gl=KR&ceid=KR:ko"
-    try:
-        feed = feedparser.parse(rss_url)
-        return [
-            {"title": entry.get("title", ""), "link": entry.get("link", "")}
-            for entry in feed.entries[:limit]
-        ]
-    except Exception as exc:
-        print(f"[WARN] 뉴스 조회 실패: {exc}")
-        return []
+def build_smart_korean_briefing(
+    date_str: str,
+    weather: dict,
+    news_by_cat: dict[str, list[dict]],
+) -> str:
+    t_now = weather.get("temp_now")
+    t_min = weather.get("temp_min")
+    t_max = weather.get("temp_max")
+    rain = weather.get("rain_prob") or 0
+
+    lines = [f"좋은 아침입니다! {date_str} 아침 브리핑입니다."]
+
+    if t_now is not None and t_min is not None and t_max is not None:
+        diff = round(t_max - t_min, 1)
+        if t_min <= 5:
+            outfit = "아침 공기가 꽤 쌀쌀하니 보온이 잘 되는 겉옷을 꼭 챙기세요."
+        elif diff >= 8:
+            outfit = "일교차가 크니 입고 벗기 편한 겉옷을 준비하시는 것이 좋겠습니다."
+        elif t_max >= 26:
+            outfit = "낮 동안 다소 더울 수 있으니 가벼운 옷차림을 추천합니다."
+        else:
+            outfit = "활동하기 쾌적한 기온이 예상됩니다."
+
+        umbrella = (
+            f"오늘 강수확률이 {rain}%로 예보되어 있으니 우산을 챙기세요."
+            if rain >= 40
+            else f"강수확률은 {rain}%로 비 소식 없이 맑은 하루가 예상됩니다."
+        )
+        lines.append(
+            f"\n🌤️ [날씨 및 옷차림]\n현재 기온은 {t_now}°C이며, 오늘 최저 {t_min}°C / 최고 {t_max}°C입니다. {outfit} {umbrella}"
+        )
+
+    highlights = []
+    for cat_name, _ in NEWS_CATEGORIES:
+        cat_items = news_by_cat.get(cat_name, [])
+        if cat_items:
+            highlights.append(f"• [{cat_name}] {cat_items[0]['title']}")
+
+    if highlights:
+        lines.append("\n📰 [분야별 오늘의 1면 헤드라인]\n" + "\n".join(highlights))
+
+    return "\n".join(lines)
 
 
 def generate_ai_briefing(
     api_key: str,
     date_str: str,
     weather: dict,
-    events: list[dict],
-    news: list[dict],
+    news_by_cat: dict[str, list[dict]],
 ) -> str:
-    if not api_key:
-        return "API 키가 설정되지 않아 기본 데이터만 표시합니다."
-
-    events_text = (
-        "\n".join(f"- [{e['time']}] {e['title']}" for e in events)
-        if events
-        else "- 등록된 오늘 일정이 없습니다."
-    )
-    news_text = (
-        "\n".join(f"- {n['title']}" for n in news)
-        if news
-        else "- 주요 뉴스가 없습니다."
-    )
     weather_text = (
         f"현재 {weather.get('temp_now')}°C "
         f"(최저 {weather.get('temp_min')}°C / 최고 {weather.get('temp_max')}°C, "
         f"강수확률 {weather.get('rain_prob')}%)"
     )
 
+    news_sections = []
+    for cat_name, _ in NEWS_CATEGORIES:
+        items = news_by_cat.get(cat_name, [])
+        if items:
+            titles = "\n".join(f"  - {it['title']}" for it in items[:3])
+            news_sections.append(f"[{cat_name}]\n{titles}")
+    news_text = "\n".join(news_sections) if news_sections else "주요 뉴스가 없습니다."
+
     prompt = f"""오늘은 {date_str}입니다. 아래 정보를 바탕으로 활기차고 간결한 아침 모닝 브리핑을 한국어로 작성해 주세요.
 
 [오늘 날씨]
 {weather_text}
 
-[오늘 일정]
-{events_text}
-
-[주요 뉴스 헤드라인]
+[분야별 주요 뉴스]
 {news_text}
 
 작성 지침:
 1. 다정하고 깔끔한 인사말과 함께 오늘 날씨 및 옷차림/우산 팁을 1~2문장으로 알려주세요.
-2. 오늘 일정을 시간순으로 짚어주고, 일정이 없으면 여유로운 하루를 응원해 주세요.
-3. 주요 뉴스 헤드라인 핵심을 3줄 이내로 요약해 주세요.
+2. 글로벌주식·경제·정치 등 주요 이슈 흐름을 3~4줄 이내로 핵심만 짚어주세요.
 """
-    client = genai.Client(api_key=api_key)
-    for model_name in ["gemini-4-hydrogen", "gemini-3.8-flash", "gemini-2.5-flash"]:
-        try:
-            resp = client.models.generate_content(
-                model=model_name,
-                contents=prompt,
-            )
-            if resp.text:
-                return resp.text.strip()
-        except Exception as exc:
-            print(f"[WARN] Gemini 모델 {model_name} 호출 실패: {exc}")
 
-    return "AI 요약을 생성하지 못했습니다. Google AI Studio API 키를 확인해 주세요."
+    if api_key.startswith("gsk_"):
+        try:
+            resp = requests.post(
+                "https://api.groq.com/openai/v1/chat/completions",
+                headers={
+                    "Authorization": f"Bearer {api_key}",
+                    "Content-Type": "application/json",
+                },
+                json={
+                    "model": "llama-3.3-70b-versatile",
+                    "messages": [{"role": "user", "content": prompt}],
+                    "max_tokens": 900,
+                },
+                timeout=25,
+            )
+            resp.raise_for_status()
+            return resp.json()["choices"][0]["message"]["content"].strip()
+        except Exception as exc:
+            print(f"[WARN] Groq 호출 실패: {exc}")
+    elif api_key:
+        for model_name in ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-flash-latest"]:
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent"
+            try:
+                resp = requests.post(
+                    url,
+                    headers={"x-goog-api-key": api_key},
+                    json={"contents": [{"parts": [{"text": prompt}]}]},
+                    timeout=25,
+                )
+                resp.raise_for_status()
+                data = resp.json()
+                candidates = data.get("candidates", [])
+                if candidates:
+                    parts = candidates[0].get("content", {}).get("parts", [])
+                    if parts and "text" in parts[0]:
+                        return parts[0]["text"].strip()
+            except Exception as exc:
+                print(f"[WARN] Gemini 모델 {model_name} 호출 실패: {exc}")
+
+    return build_smart_korean_briefing(date_str, weather, news_by_cat)
 
 
 def send_telegram_message(token: str, chat_id: str, text: str) -> None:
@@ -155,20 +200,12 @@ def main() -> None:
         os.environ.get("GEMINI_API_KEY", "").strip()
         or os.environ.get("ANTHROPIC_API_KEY", "").strip()
     )
-    ics_url = os.environ.get("ICS_URL", "").strip()
-    publish_events_raw = os.environ.get("PUBLISH_EVENTS", "true").strip().lower()
-    publish_events = publish_events_raw not in ("false", "0", "no")
 
     weather = fetch_weather()
-    events = fetch_calendar_events(ics_url, now_kst.date())
-    news = fetch_top_news(limit=5)
-    summary = generate_ai_briefing(ai_api_key, date_str, weather, events, news)
+    news_by_cat = fetch_categorized_news(limit_per_cat=5)
+    summary = generate_ai_briefing(ai_api_key, date_str, weather, news_by_cat)
 
-    send_telegram_message(
-        telegram_token,
-        telegram_chat_id,
-        f"☀️ {date_str} 모닝 브리핑\n\n{summary}",
-    )
+    send_telegram_message(telegram_token, telegram_chat_id, f"☀️ {date_str} 모닝 브리핑\n\n{summary}")
 
     os.makedirs("docs", exist_ok=True)
     web_data = {
@@ -176,9 +213,8 @@ def main() -> None:
         "date_label": date_str,
         "weather": weather,
         "summary": summary,
-        "events": events if publish_events else [],
-        "events_hidden": not publish_events,
-        "news": news,
+        "news_categories": [name for name, _ in NEWS_CATEGORIES],
+        "news_by_category": news_by_cat,
     }
     with open("docs/data.json", "w", encoding="utf-8") as f:
         json.dump(web_data, f, ensure_ascii=False, indent=2)
