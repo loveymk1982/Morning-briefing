@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-23 07:41 KST",
+  "updated_at": "2026-11-23 22:01 KST",
   "date_label": "2026년 11월 23일 (월)",
   "weather": {
-    "temp_now": 2.8,
-    "temp_max": 12.1,
-    "temp_min": 1.3,
+    "temp_now": 7.7,
+    "temp_max": 12.3,
+    "temp_min": 1.2,
     "rain_prob": 100
   },
   "summary": "AI 요약을 생성하지 못했습니다. Google AI Studio API 키를 확인해 주세요.",
@@ -12,24 +12,24 @@
   "events_hidden": false,
   "news": [
     {
-      "title": "최교진, 수능 부정 무사안일 대처에 ‘나이’ 발언 겹쳐 결국 하차 - 한겨레",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zcjRvZ3A1QlAycVNZTVpXVk1tUFV0Sks2QUVBb0lORDBPNHlFQkl4Y05vLUtPR0NRSlFESFpfemJYSDBINGd5XzQ5TWEwZUlWOWs3bHZyUTVzMV9GaV9jejlmUFEtenU5OTAw?oc=5"
+      "title": "동맹파 위성락만 빼고 ‘물갈이’…한미 갈등 돌파구 마련 포석 - 한겨레",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBEU20yUWliUi1XRFFVM2Z6c0h4UDdNd0kyVHQ5YUtrRmdoVVYyNUFIT2VnX3hPRS1sUm5LZUFzV3hjSjYyX0YtYjEtZkw0LUhYS191Ukcyam5tNkpKelZjeXBkZmVFRk5ldUFn?oc=5"
     },
     {
-      "title": "법관회의 의장 \"曺탄핵 도 넘어… 의결한다면 우리도 행동 나서야\" - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOU2JqVG1zblJoaXpUZWxTRFh2MXJCYTh0MzUxaTdpMTVQdEp4YVFFR0pXd1RWVUdRMnA0Y1ljX0RrbjhGVWlxZG0xVUJIcFc2RkhMcWNZQTVBUXV0SGY3TFJWeXdIa2x3bTE2RUNpZVdCTVpYWURTanhOQ3czN21MX0h3T2M3MnJJQndzSFdhRHo?oc=5"
+      "title": "조희대 탄핵 추진에 “행동할 때” “성찰 먼저” 판사들 와글 - 경향신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFByRkxoN2pjRWU5Y2xqSTBTTkxtaTZ0b3kxWFdYQWQzWnl3Rm9ZRVZ6cm9fcG42QjdRZGFlcDQ1TVZMNXhzMS1ISFJDTy1QMzNHVzR0Z3ktUE5hd9IBX0FVX3lxTE1FajI3TDFpMHo4cE5TMnc2ak9NVUxfczJDSDItVnowQXhFZlp0TV9GQWdIb0JuWGUwVllNUzMtRVMwNnV2R1otdlEtWVphWkQ5blRPclRLbjliRDE2eTVN?oc=5"
     },
     {
-      "title": "트럼프 간절하던 북미회담 …“북한이 수용불가 조건 제시” - KBS 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1PY25QWERtLVJycUlXdXBGaTNyYUkwc2RFTkZUVXpKN0FIY1dxXzFRQ1B1QklZMWltT1lCalhjTTNDZ3FiZzR5LTFZSDFsMzlpanFRNHdvYnpwYzQ?oc=5"
+      "title": "공무원 노조 교육부 지부, 최교진 전 장관에게 \"감사패 주겠다\" - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSFdMMlh5WHR4alk4OG1fQm8yVHY0eGN6NGZ5MWtXR3NGcGpYV0FvdG5UQjUtV1dGRmRZZDZWS0NiQmVKTUlhTmoyZ2RPakNqZ2p5QzAxTmEyZ0ExSFhmTGhlNHBNVnVhZU5QUktETDVaNVhNekV1cGdLQU9SaWZ5VU5RN2pSU2c?oc=5"
     },
     {
-      "title": "인터넷 연결 안 하고 커닝…내년 ‘온디바이스AI’ 주의보 - 경향신문",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5WEtzdFJQc1EtQ1FMNDZubzRLTHdqUFBhLTVpZDRYaWc0Sk9hNi15ZkRmdWhUOGRCeDdvR01iYVlSX25iMjg0YWhPdEZuT2dnYzVXUlluOGljZw?oc=5"
+      "title": "복면 쓴 ICE 요원이 공항서 이민자 급습…’과격 작전’ 논란 - 연합뉴스TV",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0yVGphSHZON3FfVDNLTk9GeU84bDVQX0ctOVdaeml2Vkp5dG5rVlpsR1ZJTW1CRUxaT2Qtc25QZ3NhTTVoYURVVElmRHdnaXBTQ1liSG0yYm11Q2JqbUJtOE9BTS04M1U?oc=5"
     },
     {
-      "title": "“아들, 핸드폰 엄마한테 주고 가”…논술시험장, 단추에 머리끈까지 살폈다 - 매일경제",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1PQlpkRUxSU0lONmJDZzN5OW5RQmMwZUlSbGlXdDNDMjF1LWZPN1VIREdTakRVYjZuajI2ZE5Ha0Jqb1hhOTJMc290M21ZVGd5LTlxbw?oc=5"
+      "title": "AI ‘커닝’ 비상…지역 유일 논술치는 경북대 ‘약술 문제 초긴장’ - 영남일보",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8xSFpxU05JWTkteFYwNjlWeTZ2YWU5U04tTHF4cjY3WlFSU3pDdndLdDdlcmo1enlscDZOVk9rWVVHMUV2VnMzRGxCRzd6Wm93aEk2U09MLU1hc01Oc2RNdmk4aFhUN2U0enlj?oc=5"
     }
   ]
 }
