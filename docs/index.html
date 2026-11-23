@@ -55,7 +55,7 @@
     .card h2 {
       font-size: 15px;
       color: var(--accent);
-      margin-bottom: 10px;
+      margin-bottom: 12px;
       display: flex;
       align-items: center;
       gap: 6px;
@@ -64,33 +64,54 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      font-size: 15px;
+      gap: 12px;
+      font-size: 14px;
     }
-    .temp-now { font-size: 28px; font-weight: 700; }
+    .temp-now { font-size: 28px; font-weight: 700; white-space: nowrap; }
     .summary-text {
       white-space: pre-wrap;
       font-size: 15px;
       color: #e2e8f0;
     }
+    .tabs {
+      display: flex;
+      gap: 6px;
+      overflow-x: auto;
+      padding-bottom: 10px;
+      margin-bottom: 8px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      -webkit-overflow-scrolling: touch;
+    }
+    .tab-btn {
+      flex: 1 0 auto;
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--muted);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 6px 12px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .tab-btn.active {
+      background: var(--accent);
+      color: #0f172a;
+      border-color: var(--accent);
+    }
     ul.list { list-style: none; }
     ul.list li {
-      padding: 8px 0;
+      padding: 10px 0;
       border-bottom: 1px solid rgba(255, 255, 255, 0.06);
       font-size: 14px;
     }
     ul.list li:last-child { border-bottom: none; }
-    .time-pill {
-      display: inline-block;
-      font-size: 12px;
-      font-weight: 600;
-      color: var(--accent);
-      margin-right: 8px;
-    }
     a.news-link {
+      display: block;
       color: var(--text);
       text-decoration: none;
     }
-    a.news-link:hover { color: var(--accent); }
+    a.news-link:hover, a.news-link:active { color: var(--accent); }
   </style>
 </head>
 <body>
@@ -106,25 +127,40 @@
   </section>
 
   <section class="card">
-    <h2>✨ 클로드 아침 브리핑</h2>
+    <h2>✨ 아침 브리핑</h2>
     <div class="summary-text" id="summary-content">아직 생성된 브리핑이 없습니다. GitHub Actions에서 첫 실행(Run workflow)을 진행해 주세요!</div>
-  </section>
-
-  <section class="card" id="events-card">
-    <h2>📅 오늘의 일정</h2>
-    <ul class="list" id="events-list">
-      <li>등록된 일정이 없습니다.</li>
-    </ul>
   </section>
 
   <section class="card">
     <h2>📰 주요 뉴스 헤드라인</h2>
+    <div class="tabs" id="news-tabs"></div>
     <ul class="list" id="news-list">
       <li>뉴스 정보를 불러오는 중입니다.</li>
     </ul>
   </section>
 
   <script>
+    const DEFAULT_CATEGORIES = ['글로벌주식', '경제', '연예', '스포츠', '정치'];
+    let newsByCategory = {};
+    let activeCategory = DEFAULT_CATEGORIES[0];
+
+    function renderNews(category) {
+      activeCategory = category;
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.category === category);
+      });
+
+      const newsList = document.getElementById('news-list');
+      const items = newsByCategory[category] || [];
+      if (items.length > 0) {
+        newsList.innerHTML = items.map(n =>
+          `<li><a class="news-link" href="${n.link}" target="_blank" rel="noopener noreferrer">${n.title}</a></li>`
+        ).join('');
+      } else {
+        newsList.innerHTML = '<li>해당 분야 뉴스를 불러오지 못했습니다.</li>';
+      }
+    }
+
     async function loadBriefing() {
       try {
         const res = await fetch('./data.json?t=' + Date.now());
@@ -147,23 +183,21 @@
           document.getElementById('summary-content').textContent = data.summary;
         }
 
-        const eventsList = document.getElementById('events-list');
-        if (data.events_hidden) {
-          eventsList.innerHTML = '<li>일정 비공개 모드(PUBLISH_EVENTS=false)가 설정되어 있습니다.</li>';
-        } else if (Array.isArray(data.events) && data.events.length > 0) {
-          eventsList.innerHTML = data.events.map(ev =>
-            `<li><span class="time-pill">${ev.time}</span>${ev.title}</li>`
-          ).join('');
-        } else {
-          eventsList.innerHTML = '<li>오늘 등록된 일정이 없습니다.</li>';
-        }
+        const categories = Array.isArray(data.news_categories) && data.news_categories.length > 0
+          ? data.news_categories
+          : DEFAULT_CATEGORIES;
 
-        const newsList = document.getElementById('news-list');
-        if (Array.isArray(data.news) && data.news.length > 0) {
-          newsList.innerHTML = data.news.map(n =>
-            `<li><a class="news-link" href="${n.link}" target="_blank" rel="noopener noreferrer">${n.title}</a></li>`
-          ).join('');
-        }
+        newsByCategory = data.news_by_category || {};
+        const tabsEl = document.getElementById('news-tabs');
+        tabsEl.innerHTML = categories.map(cat =>
+          `<button class="tab-btn" data-category="${cat}">${cat}</button>`
+        ).join('');
+
+        tabsEl.querySelectorAll('.tab-btn').forEach(btn => {
+          btn.addEventListener('click', () => renderNews(btn.dataset.category));
+        });
+
+        renderNews(categories[0]);
       } catch (err) {
         console.warn(err);
       }
