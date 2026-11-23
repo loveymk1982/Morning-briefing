@@ -1,11 +1,13 @@
+import datetime
 import json
 import os
-import datetime
 from zoneinfo import ZoneInfo
-import requests
+
 import feedparser
 import icalendar
 import recurring_ical_events
+import requests
+from google import genai
 
 KST = ZoneInfo("Asia/Seoul")
 
@@ -74,13 +76,31 @@ def fetch_top_news(limit: int = 5) -> list[dict]:
         return []
 
 
-def generate_ai_briefing(api_key: str, date_str: str, weather: dict, events: list[dict], news: list[dict]) -> str:
+def generate_ai_briefing(
+    api_key: str,
+    date_str: str,
+    weather: dict,
+    events: list[dict],
+    news: list[dict],
+) -> str:
     if not api_key:
         return "API 키가 설정되지 않아 기본 데이터만 표시합니다."
 
-    events_text = "\n".join(f"- [{e['time']}] {e['title']}" for e in events) if events else "- 등록된 오늘 일정이 없습니다."
-    news_text = "\n".join(f"- {n['title']}" for n in news) if news else "- 주요 뉴스가 없습니다."
-    weather_text = f"현재 {weather.get('temp_now')}°C (최저 {weather.get('temp_min')}°C / 최고 {weather.get('temp_max')}°C, 강수확률 {weather.get('rain_prob')}%)"
+    events_text = (
+        "\n".join(f"- [{e['time']}] {e['title']}" for e in events)
+        if events
+        else "- 등록된 오늘 일정이 없습니다."
+    )
+    news_text = (
+        "\n".join(f"- {n['title']}" for n in news)
+        if news
+        else "- 주요 뉴스가 없습니다."
+    )
+    weather_text = (
+        f"현재 {weather.get('temp_now')}°C "
+        f"(최저 {weather.get('temp_min')}°C / 최고 {weather.get('temp_max')}°C, "
+        f"강수확률 {weather.get('rain_prob')}%)"
+    )
 
     prompt = f"""오늘은 {date_str}입니다. 아래 정보를 바탕으로 활기차고 간결한 아침 모닝 브리핑을 한국어로 작성해 주세요.
 
@@ -98,23 +118,18 @@ def generate_ai_briefing(api_key: str, date_str: str, weather: dict, events: lis
 2. 오늘 일정을 시간순으로 짚어주고, 일정이 없으면 여유로운 하루를 응원해 주세요.
 3. 주요 뉴스 헤드라인 핵심을 3줄 이내로 요약해 주세요.
 """
-    for model_name in ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash"]:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={api_key}"
+    client = genai.Client(api_key=api_key)
+    for model_name in ["gemini-4-hydrogen", "gemini-3.8-flash", "gemini-2.5-flash"]:
         try:
-            resp = requests.post(
-                url,
-                json={"contents": [{"parts": [{"text": prompt}]}]},
-                timeout=30,
+            resp = client.models.generate_content(
+                model=model_name,
+                contents=prompt,
             )
-            resp.raise_for_status()
-            data = resp.json()
-            candidates = data.get("candidates", [])
-            if candidates:
-                parts = candidates[0].get("content", {}).get("parts", [])
-                if parts and "text" in parts[0]:
-                    return parts[0]["text"].strip()
+            if resp.text:
+                return resp.text.strip()
         except Exception as exc:
             print(f"[WARN] Gemini 모델 {model_name} 호출 실패: {exc}")
+
     return "AI 요약을 생성하지 못했습니다. Google AI Studio API 키를 확인해 주세요."
 
 
@@ -149,7 +164,11 @@ def main() -> None:
     news = fetch_top_news(limit=5)
     summary = generate_ai_briefing(ai_api_key, date_str, weather, events, news)
 
-    send_telegram_message(telegram_token, telegram_chat_id, f"☀️ {date_str} 모닝 브리핑\n\n{summary}")
+    send_telegram_message(
+        telegram_token,
+        telegram_chat_id,
+        f"☀️ {date_str} 모닝 브리핑\n\n{summary}",
+    )
 
     os.makedirs("docs", exist_ok=True)
     web_data = {
