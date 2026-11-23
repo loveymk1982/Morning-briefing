@@ -1,35 +1,130 @@
 {
-  "updated_at": "2026-11-23 22:01 KST",
+  "updated_at": "2026-11-23 22:53 KST",
   "date_label": "2026년 11월 23일 (월)",
   "weather": {
-    "temp_now": 7.7,
-    "temp_max": 12.3,
-    "temp_min": 1.2,
-    "rain_prob": 100
+    "temp_now": null,
+    "temp_max": null,
+    "temp_min": null,
+    "rain_prob": 0
   },
-  "summary": "AI 요약을 생성하지 못했습니다. Google AI Studio API 키를 확인해 주세요.",
-  "events": [],
-  "events_hidden": false,
-  "news": [
-    {
-      "title": "동맹파 위성락만 빼고 ‘물갈이’…한미 갈등 돌파구 마련 포석 - 한겨레",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBEU20yUWliUi1XRFFVM2Z6c0h4UDdNd0kyVHQ5YUtrRmdoVVYyNUFIT2VnX3hPRS1sUm5LZUFzV3hjSjYyX0YtYjEtZkw0LUhYS191Ukcyam5tNkpKelZjeXBkZmVFRk5ldUFn?oc=5"
-    },
-    {
-      "title": "조희대 탄핵 추진에 “행동할 때” “성찰 먼저” 판사들 와글 - 경향신문",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFByRkxoN2pjRWU5Y2xqSTBTTkxtaTZ0b3kxWFdYQWQzWnl3Rm9ZRVZ6cm9fcG42QjdRZGFlcDQ1TVZMNXhzMS1ISFJDTy1QMzNHVzR0Z3ktUE5hd9IBX0FVX3lxTE1FajI3TDFpMHo4cE5TMnc2ak9NVUxfczJDSDItVnowQXhFZlp0TV9GQWdIb0JuWGUwVllNUzMtRVMwNnV2R1otdlEtWVphWkQ5blRPclRLbjliRDE2eTVN?oc=5"
-    },
-    {
-      "title": "공무원 노조 교육부 지부, 최교진 전 장관에게 \"감사패 주겠다\" - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSFdMMlh5WHR4alk4OG1fQm8yVHY0eGN6NGZ5MWtXR3NGcGpYV0FvdG5UQjUtV1dGRmRZZDZWS0NiQmVKTUlhTmoyZ2RPakNqZ2p5QzAxTmEyZ0ExSFhmTGhlNHBNVnVhZU5QUktETDVaNVhNekV1cGdLQU9SaWZ5VU5RN2pSU2c?oc=5"
-    },
-    {
-      "title": "복면 쓴 ICE 요원이 공항서 이민자 급습…’과격 작전’ 논란 - 연합뉴스TV",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0yVGphSHZON3FfVDNLTk9GeU84bDVQX0ctOVdaeml2Vkp5dG5rVlpsR1ZJTW1CRUxaT2Qtc25QZ3NhTTVoYURVVElmRHdnaXBTQ1liSG0yYm11Q2JqbUJtOE9BTS04M1U?oc=5"
-    },
-    {
-      "title": "AI ‘커닝’ 비상…지역 유일 논술치는 경북대 ‘약술 문제 초긴장’ - 영남일보",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8xSFpxU05JWTkteFYwNjlWeTZ2YWU5U04tTHF4cjY3WlFSU3pDdndLdDdlcmo1enlscDZOVk9rWVVHMUV2VnMzRGxCRzd6Wm93aEk2U09MLU1hc01Oc2RNdmk4aFhUN2U0enlj?oc=5"
-    }
-  ]
+  "summary": "좋은 아침입니다! 2026년 11월 23일 (월) 아침 브리핑입니다.\n\n📰 [분야별 오늘의 1면 헤드라인]\n• [글로벌주식] 이 애널리스트가 미국 증시의 추가 하락을 예상하는 이유 - Investing.com 한국어\n• [경제] 코스피 5% 폭락에 매도 사이드카…장중 4500선까지 - 한겨레\n• [연예] [단독] 경찰, ’만취 음주사고’ 고경표에 오늘 오후 7시 소환 통보 - 연합뉴스TV\n• [스포츠] 새 출발 나선 EPL 맨유, 포체티노 데뷔전서 리버풀에 0-4 참패 - KBS 뉴스\n• [정치] 조작기소 특검법은 왜 이재명 대통령에게 독배인가 - 시사IN",
+  "news_categories": [
+    "글로벌주식",
+    "경제",
+    "연예",
+    "스포츠",
+    "정치"
+  ],
+  "news_by_category": {
+    "글로벌주식": [
+      {
+        "title": "이 애널리스트가 미국 증시의 추가 하락을 예상하는 이유 - Investing.com 한국어",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5nQ3dTcmJPOEt6d3J0QkxyRklmdHBpX0Q0aXBVdTBKTF82Rkg5N2VmV0VFZFk0OGl6d2dKaTRtV3ZvQlVoVUZndmVfYXItU3doMVBldzQ4dDV5Tlk3ZmxxYmEwNEtFLWExT2w0c1JRN1A?oc=5"
+      },
+      {
+        "title": "뉴욕증시 프리뷰, 주가 선물 반등...엔비디아 9% 급등·나스닥100 선물 3.6%↑ - 뉴스핌",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5hTnpJbHVST0p3djBfZWJjM2VuRU9TRGI3U0k5aTBMZHpJZERlbVVnaTA1Q3gyX3VMMkhac1BIVjJLTG9Xb19EN2ZCZmxSUHVhUHNlNW1ienlWLWgx?oc=5"
+      },
+      {
+        "title": "코스피, 장중 4,600대로 후퇴...미국 증시 급락 여파 - YTN",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE02cmxOVmZmZUV6QXN2cEhWLXhFbmhxdUx3OVZCTXZDSFdXMEVxRURfYkNkbUxkRVNBNFlPSGZueFlnUWFEUWt2OGlOS05RUVE5Q2dxQjVEM2hkNEZ4QzRKVmlIaUFSMEVOQkU3bDFmYw?oc=5"
+      },
+      {
+        "title": "\"기다려온 기회\"…美증시폭락에 모건스탠리가 외쳤다 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tVDhOQkJ0cmJiWm03a3dmMk1Cb3BwVl9oT3c2XzhGWGtHc3RyVTdraDBpazNNZWV6blNQbGlneGNuWWZPdnFoTDF4Y0JBbUJFeFVnX1ZLZjhXdw?oc=5"
+      },
+      {
+        "title": "미국 증시, 엔비디아 회계 조사 보도에 급락 - 네이버페이 머니스토리",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9FN2FkX1RSNVQ1VWtKa3RtSVk1Mzh1amdRekl0dTY2Mk5Xc2JWMTBtSGp2bFJQTmpWWWR1SW9MNnpNRVM5UEZaSmZ3TmZNaGhMQlZIckloX1I?oc=5"
+      }
+    ],
+    "경제": [
+      {
+        "title": "코스피 5% 폭락에 매도 사이드카…장중 4500선까지 - 한겨레",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91Z1EyaE0xU2ttdmZsYW11ZkkzZU9IdmRVZWp1am0xbjY1Y0FJN2w0UE5nRmJrS2pYSV9EbkNvUFFpRkVKREF2NFNFTEJNcGU4bTlabnhHN0JCVmZ4Qk9BbS1OejZUcjA?oc=5"
+      },
+      {
+        "title": "이형일 \"증시 변동성 이례적 확대‥증안펀드 규모 검토\" - MBC 뉴스",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1YZjJ6VWo2Z3BrbGQ4Qy1jOXlXYWtpYkZlTXVKZmkwc1hobUx1a2VTMl82MTNCZGJwQUlfb1p6TXpzb3J2eFlRYmlLNjdpcGRrMV81aEdjVE01WTFlcnd5ZFdQejdWTTVXby1XS1Q1NzhtWktf0gF0QVVfeXFMTXNQaDV5QksxZWFlQ2VDRmVBSHVIQ3FVbDJMZEdnU3NkSXdZb1VxNEh6V2oyYkZnU3huZ1Y0ZmlZb1UzbEk3cjU2TnV3aEd6MHVOT1pJSjAwT2I4UEVRTXdXaVdXcUZaelVINzJabnFKVDBZeXc?oc=5"
+      },
+      {
+        "title": "이형일 \"전기차 생산세액공제 종합 판단…근로소득세 개편 신중\" - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0N3I2X0JDTHc3R01tWG54a2J5SDZHNHFnbmctR0NyZzJwbkFKSmdrenhPclJuckRmb1dVSExzUE5JQkVmWHB5RmhWNU5WeHJ0dDcwMXZNNXlyLVnSAWBBVV95cUxPR2NndGQtREhfS0JFQUFsX1dPbko1VlhvUlJSNkhPdGZqVDdSa25aOW9WdGFrQ056NmVqOGR5SVNEeWhBd25RdS1zZlVzdTRUb2lnT3BoTG9ELUFyNmNmX2E?oc=5"
+      },
+      {
+        "title": "‘놀부보쌈’ 운영사 놀부, 기업회생 신청 기각…경영난 지속 - KBS 뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1zMEhucWlhUG95TVZ4cFIyTUFZRFU1VUZad3hKV2R2VndnU1YtMUVuRTBvQzhRSG1hamE0X1pBeXVwOF9Uc1hEWXZ5YmtmZHd4dGY5N09rU3FBYVk?oc=5"
+      },
+      {
+        "title": "IPARK현대산업, 1조1천430억 규모 광명 하안주공6·7단지 재건축 수주 - 연합인포맥스",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Wei1heXVXWnVlTTBMLXhVOW9RUkdpb3lqWFI5SE96OVFIQXZVdnNaWFN1NWhtajJEclJnNVVteWZzeEQ1cm9JeVNtNjFad3A0TlFfdVJFdERFcTB1cGNTWF9Fb0FRU1NPM2g5M01lVlE?oc=5"
+      }
+    ],
+    "연예": [
+      {
+        "title": "[단독] 경찰, ’만취 음주사고’ 고경표에 오늘 오후 7시 소환 통보 - 연합뉴스TV",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ndmM4dzRaWGQwWVFDdUo3X01NZHhWOWIyOE5WNnM5VkZ3cXA2Um5DZzlFUkx2WjAzRWJyYlJZcHU5RUUtMk9MME0wcmFKb0plc0hlekN4THo3eW5XRlFwM1UwY2I3akU?oc=5"
+      },
+      {
+        "title": "\"박지윤·최동석 이혼 최악\" 둘 다 저격한 변호사…\"바람은 민사, 악플은 형사다\" ('아는 변호사') - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQd2hKeC1NcTFxYUFRZVYxdXF5WXY5dVh1WWdKcEhDeUhkZkw0OW9sUmRWeFk2NnI3Q2VaWjRIai1LZWNEdzJVdmt1UU41UzI3Y3hBWjFDalVCOXVRU3VObkNIVC1TR2t0dnl3S0c0VnhQNmZqbWhIaU9KdlRQaEhlemtOaFFxV1FvdmU4dTVqRQ?oc=5"
+      },
+      {
+        "title": "김희정, 발리 농장에서 건강 美 뿜뿜 \"밧딧불이 애벌레 실제로 만져본 날\" - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZ29UVlYtZlIydGVUWWFYYzNLaEx0YkpVdmtxcmdPZ1pIbVhzMGViM3gweksyZXhvejhoUWlCQTAzZENKa0RZdEhETGoxR1BuVTh0cXVMZlViWlF6QTFEMEtBQ3ZkU083OEZtMXE3Z3ZKcTBOZEJYMS1PLWtTUGtRa3ZEeGVHUnp6ZmRIOWY1YUhSRk3SAacBQVVfeXFMTTMzMjhsR0xyMlF6Nk9Ca25MM19rbUtyT3l4eHM2ZHVMZGlqMkIwZUM0TGVtOXBYcEFhTUxwd2toVzk4TUxEXzdqTlUzZTZsTUs5emJONHV5SE13ZG12ajlNUXJocVlsX29UUWFwSzFMSHd0VVJxZjZLMDdydUF2RzQwVVdJM3hMU21ta09fME5ady1ya1JlZms2aV83YlZIbFhqckQ5bDg?oc=5"
+      },
+      {
+        "title": "'나의 유죄인간' 임시완, 설인아에 이별 통보하고 비밀 공조 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9nWVpfX2FQSzR1M3lDckJMRU9SQTVaei1ZOXVRVnlsRTE2VG5Ldld0RXQxLUlRQ0t6eXNBaGNRblRTUjF2THFSS2dVTnZIbzE0clBIdHl3SWRjSDZFbUE0cnhOa3l1cGozdWttN1JEUlFQV1HSAXhBVV95cUxQMTY1bk5FRkVzNUxlQlVpU3QzVnI1TVJHMU85TThCVmY5UjlwRERpSkM0ckxiVG1EU2pXWTl5cG5CQlRVUDFSZXNacUJvd2llQWZwR2VVQVkzZ2dkZW9VNEwxMS1uMmlBVjl3RExVVzNzS1ZZN0h4REg?oc=5"
+      },
+      {
+        "title": "[오늘의 운세] 11월 24일 화요일 (음력 10월 16일) 띠별 운세 - 경기일보",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE11Nl94WU5iQUYwTlFGMEs2dWRQZ2FfUW9HNHpybno0VFVLWGw5eXFIZHNoaFh4d2VndGpMcDRKTE9wTDM2S2ctVWVvY1M4WGo3UDZldm5iWDc2dGs?oc=5"
+      }
+    ],
+    "스포츠": [
+      {
+        "title": "새 출발 나선 EPL 맨유, 포체티노 데뷔전서 리버풀에 0-4 참패 - KBS 뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE81dUlSbXFkNnYwekI4UldLdkhkNXFxNjlMNlRtOVY2RlBBaENnaFlZSVR5ZEdVSTB2NWlCaF9xaUpjQ0NwOTQyV3lTMUhYS01zSi1XQ09vTVAwY1o5NVh1SWtlWF95Zw?oc=5"
+      },
+      {
+        "title": "'초대박' 스쿠발에 6000억 넘게 쓴 메츠, 다음은 구자욱?' 美ESPN '깜짝' 언급! \"완벽한 퍼즐, 1루 보강 후보\" - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5BcFRMNE9neHhqb0plWWowR2RZVlcyeEUxWUFnVXpwTDVjR1NhVTRuTjl1cVl1czd0TzQ1UlFGMkFRSGFkM2dET3MyOXN0Uk90SWVJZ1g3RmpoX3RHUDQ4WGZ2d1Z1cmxFbmfSAW9BVV95cUxNNkw4Y29mTUkzNmUwVkR2dnNlQVNBNTAxV2xUalRqdEhNUFNiTkJrUmxlR2JNU091YlQ2TjZLUkFMcUpRODhUTHdvMWVVekJDUFZJaFBTVXlJQ2dLY0hDWTN2ZGNmUUNrUnFFWTVyUFk?oc=5"
+      },
+      {
+        "title": "대구시, 29일 삼성라이온즈 우승 카퍼레이드 개최…20년 만 - 매일일보",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1OSkIxSjFEbDBtVl9yaW44cDhXaFJuYXZRMkFuTUdYaTU0MzdvWVF4V1pqdmdMOEFEYkcyQVpMcnZaVGJrc3FSb2dZTE52Sy0tZERzSFFiVlhqelBfZzB0ZXYyZlE?oc=5"
+      },
+      {
+        "title": "한은회, 2026 최고의 선수에 KIA 김도영 선정...구자욱은 일구회 최고타자상 - YTN",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8yZ3JBeHo4ZnQwYXVIWXRLOTlNX0V2Z3JUSTV0aXloSGlXX2tIVURqV2hCNVJIM3ltbjhwX3FYS3VzZjBUNjV5aWxaa29OSFBmU0hvbmcyNjVJczduQUE?oc=5"
+      },
+      {
+        "title": "최종전의 여왕…티띠꾼, ‘전설’ 소렌스탐 넘고 LPGA 통산 상금 1위 등극 - 동아일보",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9LZ05wLUV5ZE5VdU1NVzNvUjk0Vjk4THZKSmRtY0t6T0lCVTU4b3dvNGQ0YzNFVW1qb2ljbmFqOGVaY19jaGktZHZzSFdWZy10UlFGSG9SMFV4OFk1RXFUVE5SZ2lRNmRvSlpDUHpUa1VZWF960gFmQVVfeXFMT0x3Z3hQTkxiVnFQa2xFNm1INEFoRHFTWFBSLVFieWZieml6VWFqVGozZzhRLUlQRE9USkRUNFVlX0J1NU11NVpfMlVXUFpyZ2pRX183c0ZfTDdDVVk4d3NUTzZRMEFB?oc=5"
+      }
+    ],
+    "정치": [
+      {
+        "title": "조작기소 특검법은 왜 이재명 대통령에게 독배인가 - 시사IN",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xVmVEVzY1SVFmUEJfV3BkODJtYklXemZNUkVaeWZNTDVjU0ZrMjJ0MzVVeDktdEJkYk5rdklnaG11ZVBfanJrWWl2cTd3UjRvOERDNENFTzI3NHo4S1drRjE2VHR2aGktYkE?oc=5"
+      },
+      {
+        "title": "의협 \"한의사 X-ray 허용법 폐기하라\"…24일 국회 앞 궐기대회 - 의협신문",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sbERJRWNpUENMOW9ZQlc0VjFTRjV2dnZGQTB2U2lYRm1MbmtHZ0hFS1ZqNFBHeWFWbENWYWVLQ0ZFQ3QtZ0hjVVdta1JSUk9VRWgwTmxXNmNwY0dnZUs0dmFLWlhyLXFUbE9RMllUZmZlUQ?oc=5"
+      },
+      {
+        "title": "“고문수사 밝혀진 국회프락치 사건, 조작 규명되면 내란” [금자㊻] - 한겨레",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBLUVJldEtuUy1MRVpzVjB5UUI0c0ZKZU8tQXYwdG80aTRsM1RjcndZWld4bFlycWxraHhjWVJXcHRjOEVVUi1zWEdaRXRZMEg4d0pCcTJmcmd4WHlRTTlJeGJWc3RBS1hMUHZhd3V5UWt1Zw?oc=5"
+      },
+      {
+        "title": "[뉴스프라임] 이 대통령, 중폭개각 단행…국정원장에 강금실 - 연합뉴스TV",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBFazJoaTR0aWhOYkJnVW9lck5HWVVQTU1DSjF4SUdYUTBpMmdfdFVEZ1MxLTlvRzZEd3VtRTRfOWh2Yzdnd2d4WkRXMU9VaE15cVFZNkdiNm1IQ29GUWZDMXlRWVNRNVE?oc=5"
+      },
+      {
+        "title": "이 대통령, 대규모 개각... 국정원장에 강금실·외교 임웅순·통일 홍익표 - BBC",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9aV2tVV2ZwQUE3MC10eDhRc3VhaXJhRE51bmVlNl9GOEFnQWVVa1c5Sll0R3ZFREgtRHlyUTRrZ3NEODk4SjJhc1MtSURPZ3RXcHl6WHFrSmJ5Q0kwZWfSAWNBVV95cUxPY20tN2R0UTJyeUNIYUhHSzhXYkdiSHdnb1FSWWlJNnR0WUxRSjlQa2VYRXZneVhXUW5kRTRzOW1jMF84TWZVR05VOHFlYzFaOER6Z1RibzhiX192QVBqRGpMSVU?oc=5"
+      }
+    ]
+  }
 }
