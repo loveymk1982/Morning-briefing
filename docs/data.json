@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-27 07:53 KST",
-  "date_label": "2026년 11월 27일 (금)",
+  "updated_at": "2026-11-28 07:54 KST",
+  "date_label": "2026년 11월 28일 (토)",
   "weather": {
-    "temp_now": 8.6,
-    "temp_max": 15.3,
-    "temp_min": 7.0,
-    "rain_prob": 88
+    "temp_now": 2.0,
+    "temp_max": 7.9,
+    "temp_min": 1.0,
+    "rain_prob": 0
   },
-  "summary": "좋은 아침입니다! 2026년 11월 27일 (금) 아침 브리핑입니다.\n\n🌤️ [날씨 및 옷차림]\n현재 기온은 8.6°C이며, 오늘 최저 7.0°C / 최고 15.3°C입니다. 일교차가 크니 입고 벗기 편한 겉옷을 준비하시는 것이 좋겠습니다. 오늘 강수확률이 88%로 예보되어 있으니 우산을 챙기세요.\n\n📰 [분야별 오늘의 1면 헤드라인]\n• [글로벌주식] [오늘의 글로벌마켓] 뉴욕증시 휴장...유럽증시 2% 안팎 상승 - 오피니언뉴스\n• [경제] 관세 근거로 \"호남 반도체\"…‘15% 사수’ 최악은 면했지만 - JTBC\n• [연예] [오늘의 운세] 2026년 11월 27일 별자리 운세 - YTN\n• [스포츠] KIA 김도영, 최고의 별 '우뚝'…2년 만에 KBO MVP 다시 수상(종합) - 연합뉴스\n• [정치] 노무현, 역대 대통령 호감도 1위…이재명 4위·윤석열 ‘꼴찌’ - 한겨레",
+  "summary": "좋은 아침입니다! 2026년 11월 28일 (토) 아침 브리핑입니다.\n\n🌤️ [날씨 및 옷차림]\n현재 기온은 2.0°C이며, 오늘 최저 1.0°C / 최고 7.9°C입니다. 아침 공기가 꽤 쌀쌀하니 보온이 잘 되는 겉옷을 꼭 챙기세요. 강수확률은 0%로 비 소식 없이 맑은 하루가 예상됩니다.\n\n📰 [분야별 오늘의 1면 헤드라인]\n• [글로벌주식] AI 투자 우려 속 기술주 반등…나스닥 2.3% 상승 [뉴욕증시] - 한국경제\n• [경제] 코스피·코스닥 동반 급등…외국인 순매수 - KBS 뉴스\n• [연예] [단독] '사생활 논란' 홍민기 前 여자친구 실종…마포대교서 마지막 확인 - 파이낸셜뉴스\n• [스포츠] [핌in인천] '5연승' GS칼텍스 이영택 감독 \"킨델란의 속공 블로킹 약점 집중 공략\" - 뉴스핌\n• [정치] 이 대통령 \"광장의 요구, 국민이 체감하는 변화로 만들어야\" - 대한민국 정책브리핑",
   "news_categories": [
     "글로벌주식",
     "경제",
@@ -18,112 +18,112 @@
   "news_by_category": {
     "글로벌주식": [
       {
-        "title": "[오늘의 글로벌마켓] 뉴욕증시 휴장...유럽증시 2% 안팎 상승 - 오피니언뉴스",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1OVXZOOGE5elNwNUtURTFxX05yWXdwb3pZLWR0SkJXWW1IamlfbVlmMzBMdFFsQlMyc21DZkltMWlmRUk5cWFRZmVOWGRNeWxVWUo4TXJkQVNVMjFNNnpGU0pMaDBUa0ZsSDN3dF9fMTg?oc=5"
+        "title": "AI 투자 우려 속 기술주 반등…나스닥 2.3% 상승 [뉴욕증시] - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE52cEZ1OTRDdVh5Qm1oaF9VbnpIbDJwcnJfT25SUElHXzMxeTlBb2dxMkZ0U0NZUF9Fc0VUdzBvTmZfMGlYV0NrQUZYc0RaV05qRW1GQ2JoOGhFZw?oc=5"
       },
       {
-        "title": "[중국 특징주] 골드만삭스 \"CSI300지수 내년 10%↑ 전망, 홍콩증시 비중확대로 상향\" - 뉴스핌",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ZZVp6ZUVXWXdqczRreC1ZLXBudXZYMEJKLUdTd3B6QnhnbnZPMnRibHVrNHpLdTYteTUySlZ4S2FydVhpUS1TTEc3WngtNk96c3NqNmdkc3I5bEx0?oc=5"
+        "title": "[뉴욕증시] “AI 공매도는 자살 행위”...나스닥 543P 급등 - 글로벌이코노믹",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVmhQN3NGaGU5dGY4OFZSMWQ3bGpMWnRjRl9OWDFqaWZfMUFDeV9wbnhLZ1A3ZTVmT3l1Z2dkZWJVSW5hSmRxZUZjWmtaZklTc0ZoRGZicGlQX2hpLWtrV01qY196UDVMZXI5bXNNc19EaEEycmlpWE5QeVByWjFNZ1Nxck1vT09l?oc=5"
       },
       {
-        "title": "AI로 화재·재난 예측하는 로제AI, 나스닥 무대에 서다…글로벌 AI 재난안전 시장 공략 - 인공지능신문",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkWDNXcW9MWE1XMWc2MXFzd2tjU2RQeUNNdF9yYTV5U1VkMUhjc0pwVmxSQW9nRXFvOXoxbnQ3b0g2RDRZdU1RQkdpSmNxY0NkY2FjakF4T0dobF9rdDZacjUxVjlkeTA?oc=5"
+        "title": "“더 오를까, 지금 팔까”…글로벌 AI株 반등에 깊어지는 고민 [머니+] - 에너지경제신문",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzS2pTNUkwaC02ajVETDZIX3JoM2g4SVZpX2NKMHhIVlYyUTBZMGFOZ1JGQUs1QkdBNEVOM09vUHd6OVVra3ZYUW1tY2tMNU5HZHotNG5Wak5ndTQ?oc=5"
       },
       {
-        "title": "中관영지 \"자본시장 안정화로 글로벌 금융 영향력 높일 수 있어\" - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE53ZlE3bGlDd0ZRblBpY2R2V3hZcFlkdHFTelQ5WWNhaFYzc0M1Vjk2Y3UydXd2OTV0M3RsUW0yMXI5SmVDdmFMU3BtSGU0MTd1WXZ2LUF3Tm5VVVFpRUVjX9IBYEFVX3lxTE53ZlE3bGlDd0ZRblBpY2R2V3hZcFlkdHFTelQ5WWNhaFYzc0M1Vjk2Y3UydXd2OTV0M3RsUW0yMXI5SmVDdmFMU3BtSGU0MTd1WXZ2LUF3Tm5VVVFpRUVjXw?oc=5"
+        "title": "코스피, 강보합세로 개장...\"글로벌 증시 강세\" - YTN",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5IU2RWVmpRdGhRTTVER0pucnJpWjZPWVJLdWV3Y1g2N0VZN3B1SlNocXE1a21QQ3NndkRYOF95NTJMdDBtcEhYMUlUWTZWYkFLWml1bFJ3TTh1Vi1pb3c?oc=5"
       },
       {
-        "title": "미국증시 추수감사절 휴장…블랙프라이데이 한국시간 28일 새벽 3시 마감 - 강릉뉴스",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAwMUJDRkpGVUUzYUhINWh1eHFsR3JmVWs0S1owTDFRanlUYVh2amdYVEtzSUlwekp4NXJ2UDZkME15ZnJld2lIeTg1bWtsS0hiVVVJQUZ1X0hjM0RVelVpVkFjME10dzhNZVVwMFROQQ?oc=5"
+        "title": "뉴욕증시 프리뷰, AI·반도체주 저가 매수에 나스닥 선물 2% 상승…금리 인상 우려 여전 - 뉴스핌",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBaSXptMmh2d3Z0SjI1S0tYOHVocmNLdjNmRTF4amIxWEZqVVhWU2xmNEhvOWVQdU02Rmp2N1F5RUlYSkpjVXdPLVNtZVk3X2FIekFZMm1LTXhCbndx?oc=5"
       }
     ],
     "경제": [
       {
-        "title": "관세 근거로 \"호남 반도체\"…‘15% 사수’ 최악은 면했지만 - JTBC",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE81WEFCWHBBWU4xZWNvRUQ1di1hbHM0TDhkZ3M1bFlKRlRiQm5MVW9ycWw3ZUZJR2lId21wdE9KUkxMNEhvVUQ0a1ZZQ0llSVFaWF9LWQ?oc=5"
+        "title": "코스피·코스닥 동반 급등…외국인 순매수 - KBS 뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KWmpJNDZVZVBFWDBETjVpR0FaOXprVFdnSWtHSnFoOFBMQ2dMS2lNc01pQWtSeG5HUG5qa1AySVVtVGxrZHJkVG1fRTY2MTl0N3VPc2laMnVtTkk?oc=5"
       },
       {
-        "title": "\"반도체 호황發 소비 회복은 시간문제\"…금통위 내부선 회의론도 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5uZ1BoZFJ0X3pYSG9xUUsxOEFQalBJQkhQb19TSlN6cUNsWFBIb3FNdlV4Ti1YandoOGZTaXdMWWdqbmRsYjdRekhhVjYtWElPSnVWODBXREhUUQ?oc=5"
+        "title": "국민연금 1∼9월 국내주식 수익률 66%…상반기 견주면 반토막 - 한겨레",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5pek1LZ25qZXEzVVdVcEtQVjBSMy0xUzhMRHpHQWlJNHZmMUwwa3h5YkhpcnF2UWhkTTUxdExReG1JOFNnLTdHSDFHSS1vTklCZTRrR2RVYXBXcHFJM1k3cVJiQ2hXZzg?oc=5"
       },
       {
-        "title": "선거 지고 경제통계 탓?…트럼프 “3분기 성장률 조작” 조사 요구 - KBS 뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kT1NROGU0YU54Y3JwRzQ4c2hvbUVSVWpVT2xXTWxIUlpMbDRCM29ISmZrdzdmTW52WnMyRkxZdlNHT25maU10eEdrUDJ2cm00akstX0pZUWFFMFE?oc=5"
+        "title": "“젠슨 황 불륜 상대와 연계된 중국 데이터센터에 엔비디아 블랙웰 설치” - KBS 뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5qU04wUGZ6S1N6TC1samtwbHgtSzB4Rm9TaW9zTFFvN2N0N21meVA0U3RqaHhRTjN3RzBHa3FEUzg5a1VWM0N2cXh0ZTV3TTdnZzVFc3RMdUZLUXM?oc=5"
       },
       {
-        "title": "차기 유럽중앙은행 총재에 '비둘기파' 스페인 데코스 - MBC 뉴스",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBrOUM5M2M1dDB1clpCTUliVEZuUzFfdzl6MFhZTWd0ckU5TmNOT3ZTODZPQ0I5RXdqWm16dWFBOVVZdHJBY3RQeDVGRU92akNpU0FCcFBBbjNzWXFsX3RiTmZYMEdmTUo0OEdRcURtM29fQ2ht0gF0QVVfeXFMUGlySFhQZ0lmemxTWWNabmV0ZmZuYzFCT1Z3aE9iQUpibTJDYTE2TnVhT2VTYUVSNEVucEZ0b0EtZVNEWHFIdmJ4bVo0YndKNDRURGhtclR2QVJFUUdabGUwN056RExTY1p6bVliNE83MEJ1RHA?oc=5"
+        "title": "[뉴욕증시-1보] AI株 저가 매수에 훈풍…3대 지수 강세 마감 - 연합인포맥스",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWNzBHTWNnQVpoXzhtVGlvOVFLcWd5SGFRYU5TZzNDbVdSS2RmOEN0YnJmV0tHQnZNaUxCZjZBTHJSM0ZRTWk1eGpma25zSXNNT0I0MnBzRWdXSVFScGtLQTNzOTBvMW1Wd1ktMHo3X1M?oc=5"
       },
       {
-        "title": "삼성에 반도체 장기 계약 제안했다가…머스크도 진땀 뺀 이재용의 한마디 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9PZ3RxNnh1SVJxRnl1LW43REtaS2M3SUo0Z2duQ3hQTmE4SmlVRzV0aTlUUGIzWFZLd2JNM1FrTVppVnBvclVxNE1GNnlHZ29xYmZkM1otM3pEMEZqX2tGRzBkNnljcXQ20gFuQVVfeXFMTmtGYUh0WGhHY2JtUWJGNkFUTWtZdFNVYUFMUFN6anREemJRTVVRaG10VkMxSXo0SWF3ZzVjWWtnZnBxcTdVYVRZV1Z3OXpxT25Uc25RQUpRa2NRZlh5aUZpaHRsMHotZXRPazQyaUE?oc=5"
+        "title": "“중년의 위기였나” 조롱이 된 가죽잠바…젠슨 황이 선택한 ‘500만원 면 재킷’이 의미하는 것 [패션의 사회학] - 경향신문",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lVXB0U2RVclA4TU5rcU0zM1BnRWFmNTRmN0Z5YnJmcmVCbEJKLTJ3TWRZclVNa2ZJRUdLM0dlbHFqNHlLSDF5eWlwZlNfUkR3dEFwdDFaZEkyd9IBX0FVX3lxTE9Hc0YyODV2Y25RT2xiRnZEY3pTM3lieTM1LWxRRGhiUTFZU2RYeDJfVFE3dzAtUTdCd2QwQkhTaHVJMC1HLTZjMjhxYmV5Y0lmc2pmZWhmVlZMUlE5dDB3?oc=5"
       }
     ],
     "연예": [
       {
-        "title": "[오늘의 운세] 2026년 11월 27일 별자리 운세 - YTN",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9mcmRVaVlGQl9QYW01X3RyTzhLcjhOM0NSUGhka3IxemY2cW5PUW1LODB2LWZ0WHd6ajdsM3VLM0xOaVZBN2x4STd0N2E4RW9MNnRxMldWSTZoX1BUQnc?oc=5"
+        "title": "[단독] '사생활 논란' 홍민기 前 여자친구 실종…마포대교서 마지막 확인 - 파이낸셜뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zUGZ5ekNwNFZGdTJ2cjZTekR5dWRzZTFXMjVpel9qaF85eWk5M0R4cFFNMHZOZ3Zuck5DekRsaGtOZHNONV93Tm1aSUpLYTlBUmtEcGZ6Sm0xUQ?oc=5"
       },
       {
-        "title": "\"대파부터 무·배추·천수만 굴까지… 조연에서 주연으로 거듭난 겨울 식재료\" - 국제뉴스",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5xQzEzOUppNXZOZEhTY0liRWx5TGpMMlljNkV6M1BhTkQ4WWdVYmxGMGViemZ4NG8xOVZuZ2FSNmtrSU5zMmRnR09pX2RZalFaYno3UVIydjZzWXpzaUV1Z0NyU21tR0NUVmJQNEh3?oc=5"
+        "title": "'제자 성폭행 혐의' 남경주 국민참여재판 시작...\"세상에 알리지 말라\" 편지도 - YTN",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBqNDFXSF9EVGdnbzVsUzRKRXNhMFg5NDdCMkliVzJ0WUpPeHZyd3JIQmVDZUhfS2puWUpiR2tDb2pZdVZOaGpnb3JOellCT1dDN0F5TFBOMU85TWtwX2c?oc=5"
       },
       {
-        "title": "‘재혼 황후’ 이세영 “하얀 피부 라스타, 주지훈 안색과 비교? 드릴 말씀 없어” - JTBC",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9YVWMxN2VKaVZ3RnB6SV96aWdtSWlqZ0hPMkg3MldjOGtkSVNYRVgxdzJ5Q3htaFZQdzItd3pJUnQwZFVFNkk2WmZ6ZWRtaWdMY1lGSw?oc=5"
+        "title": "‘재혼 황후’ 신민아 “첫 한국 로판드라마, 우려 알고 있었다” - JTBC",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ZalB2OHBab0VsZmFmZ1hFUnNnZnQxRUZGMmZoQkRfSzdmNHZVaHJ4YS1Yd0lReG5GQUJRdEx1Yi0xcHhhd0k3V1ZnM01vNGhzaFUzRg?oc=5"
       },
       {
-        "title": "황윤성 父 \"김장 400포기 안 하면 못 가\"…이찬원 당황 - 뉴스1",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9YdklqamozaklUZnptdi1EOXFxdDN4aDhRb3dXRnBJaTEtcWY2ZjJXa0lCUTRuQjJHZWtNb1RLZ1lRT01vNWV2ZW9BZHhFQWVvdU1OQTZPbkJaWnFtNU83MA?oc=5"
+        "title": "'굿파트너2' 김혜윤은 의욕 충만, 의뢰인은 불쾌…첫 상담서 무슨 일? - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE85V2QyNUxxNXU1X3lYLWpsTXR0ZHdiM29RdUhYTFBUMWVWMmlHUUlaM3lQbjZCeUo5c3BlYUpBeHZERWI3bHpFXzhrZEJQTmhORThucTk2cU55OHJLS3l2bmRFWkpMYmdXMWhYZG5oSDNDVFnSAXhBVV95cUxPWjlhM0VvTWxrLW9uc05yTEZKRXN3MUVROHE3aENkR3pJWDVZRnJCUnY0Mm5oTjRsSWJOVVMzVjRwLXBfbzA5aGdXZFRwNnY0NnIzb2twSjQ3ZFBhWERqbVlVa2lUTS1XOTUwNjA5NXBPU3l5NTRaTUg?oc=5"
       },
       {
-        "title": "음주운전 했는데 반전 미담? 고경표, 논란 11일 만에 '대리운전·접촉사고' 파묘[Oh!쎈 이슈] - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMVFHUnBFOU5TVzZXdkRVNDk0ZkxtR1czWENUMWFjTHBCVWpHTmkyV1lRcmVySHo1ZzI0YnlyTkhUNWx3Z3ZweDk3cm1WNGZCYmkySm9hbVc4Vk5TeDdSak5abkFyZTRsbk5JMm8tNkxSRG16WDhhc29tbFBaTHRBUFBJTU5vNk5EVnpVdDA0QQ?oc=5"
+        "title": "[속보] 법사위, 이용철 법무장관 청문보고서 채택…적격·부적격 병기 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85VGcxVnNZY2ItdHRyVnlFNmwydlFjWmdsaDBCazVfQngwdk5XcGY4UG5rNzh5U2REOTVUdThvNWVhck9LYkk5Rm5vLVVZRDJjX0ZYYlF3?oc=5"
       }
     ],
     "스포츠": [
       {
-        "title": "KIA 김도영, 최고의 별 '우뚝'…2년 만에 KBO MVP 다시 수상(종합) - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9MX0JJTFRvR2tqVHFIMEZrRnpOYzZ3SndsZXBXd2ptczhvaThsd1FHUmpobEJSSDYzWVJjNU5tandqbTZfT25kUmVFRkxNMGdtVXB2Yi1mSWdkOFE?oc=5"
+        "title": "[핌in인천] '5연승' GS칼텍스 이영택 감독 \"킨델란의 속공 블로킹 약점 집중 공략\" - 뉴스핌",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB5U25WWTlERHBmQ094NkJaOFkzdFVEbTVLZnFHaGtZc2pBTjY3bkJ5YktkR0R6VGI3Y1VvUTN3STZETzhjWDRnem43VUloSWFBWW9XTGZmQkFHLW1R?oc=5"
       },
       {
-        "title": "[사진]이강철 감독,'최원준 득점상 축하해' - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5sTmdIdGMtRXRSY2ZYa0JDSHU1dVlRa3dhcE0zMEZJSXNxZHdEWHRiUUQxazl6SC0yeXllTno5alFWQW5yTXU5UFVlRGRuUUtrQV9nbTdsRHpqNU4wbHppby1zOWR3SlR6TXfSAW9BVV95cUxQZnhtaGtVblo0YlZHWHVnTGNDUENvVnQ1NGZRZnFQSmJDWmMzTndiN2N0R0U3WFFYSzJYa3ZIb29vV0tLa2ZkMl9IVTFjTmt5Tmo3b19DdURtb2ZiWGNscXYtOFZPd1VWVkdKc2dJQlU?oc=5"
+        "title": "[핌in계양] 한선수 체력 관리 나선 대한항공 헤난 감독 \"기술보다 체력 훈련에 집중\" - 뉴스핌",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9nWVJzc0FVeFJ1anl2V2tRdHl6LUZwQjVMZUM0REF4c1dBMkl0U1kwcV9OT1dYeTQxemZvaHlTVFpGbUhEQ1N5YzJwSUJxYVB5MkFHeDh5U1ppM192?oc=5"
       },
       {
-        "title": "곽빈 싱글 아니었어? 충격 스토리 대공개! 아내에 딸까지 있다→심지어 AG 기간 출산 \"잠깐 한국 다녀왔다, 좋은 남편 되려고\" - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQlo4MmNrZlNIS3lERlRCYnItM180Ry1iWFhJZ2w3eUdFNkVpMUdPc2tPVVh0X01NRE5IOTZXd3F0a0dHZVp4dmNIUHdMOW9DSlNmUHo0eG9pZjhGTlBBMkJtaGJGTFRvaFA4RFVtSk8yVVVhamdQb21tMFRldGROaWZXdw?oc=5"
+        "title": "'명가 부활' 꿈꾸는 삼성화재, 1114일 만에 선두…V리그 판도 흔든다 - 뉴스1",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4yNUlQZEh1TEw4clNBbUo2TU9FTFFpY1o1N2tQMkI2T042TEJ4OHFBdmJWZ29wb0o0dHdiUFZYaEp2SDhydjVqeHB6QmR5LThCcUJab1ppLXU4UQ?oc=5"
       },
       {
-        "title": "남자배구 삼성화재, 3년 18일 만에 V리그 선두 - YTN",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE16TUw4ckNOaTZYblBZT1VVSUtJclc0OGhwUWJyUDdGUkhzYzU2ZWV2dXZyb3F6b1VSZllZOGs1Rm03Um5xTWdfMzVPelZId3RWeHRzR2pQd1VRYThfMUE?oc=5"
+        "title": "LG 트윈스, 베테랑 포수 김민식 영입…두 차례 통합우승 경험에 주목 - TSN KOREA",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBzYmtXa0lCUExVUGhyZWpKc19nR3dTeEQ4YlhqS0U5cFN6bWw0WWYyS2tEVUpwa040M1J3RVNlTVZlUFRUVG53aVlXUmo3YklWOE5iWmdySW5uX0tieGNOaA?oc=5"
       },
       {
-        "title": "[포토] 김민솔 프로, 신인상 수상 (2026 KLPGA 대상 시상식) - 아주경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5MSi0xTWN6cEZheTA3U3l0YWVCaWdDMkJoZ3V5VEl2d0FmOHBwd1pkNk1SbW1JWTVVT3Zfam8weHhSaGVFSXFHdzNfX3MyVlRGX2xYLWNUOVExQdIBWEFVX3lxTE9OREcxQ203MnV6ZjJOU0FDcDI0MUhZTkZlTTgtUTI3WnV3bEdjZnplaGxtV0g5VXZrU1NJcUFSTGxnckY5ZFVmd2RiZnJTR2d2SmZTNmltbFY?oc=5"
+        "title": "카타르 꺾은 男농구, 월드컵 본선티켓 청신호 - 동아일보",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05U0Q2NU5fTDBadTdobXRlTHkxM0JwQWZkaWhTRjEwLWtwbkdtaXFIRXBkLUZiZDQteWgyU2RIVFVSZXJta2JrV0xVOW1vamNkTEdITy1kbFRtcjNQelliMHU4MWVDLVpwSF9SZmR3SHV6ZHgy0gFmQVVfeXFMTTR5SGFfWTJQRDlrTVBGazJkTmExRzllYVNLcndheGtyYU9fREtob0xrMTlSOG5UUFhtMUJTZzNQQUxneU1Db25reTlBUWN0LUlDc2ZFbllndG5fU3l1NDM1VkhzUE1R?oc=5"
       }
     ],
     "정치": [
       {
-        "title": "노무현, 역대 대통령 호감도 1위…이재명 4위·윤석열 ‘꼴찌’ - 한겨레",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1hemdsV2FZaWFLelFlUUx0eUpuQ0JjZ0NsTFBQZ3A0dW9wcm9KUk9GT3BvdUFPb2gwUndvZXU4NGxkdXhkTEdTWmUyajhuZmw1WUlJQXhvMmVpQk1IUXRXQms3dlVDVTNZQUZSczFpcHJ5RkFk?oc=5"
+        "title": "이 대통령 \"광장의 요구, 국민이 체감하는 변화로 만들어야\" - 대한민국 정책브리핑",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qYzFLQXNVejR5SDhHbDB5Y084UGtDSEhkYU5MeXNQS2xjVDBQODF5YnFkcHJhM1JWa1JYc2Z0clQyQUdXT3lQRDdsdWpiRHZIMGNxZ2FVUGNBSS1YWkh1YTF4azUxVTFGXzNLSQ?oc=5"
       },
       {
-        "title": "이 대통령 \"7대 SEED 프로젝트 더 속도…맞춤형 추진전략 마련\" - 대한민국 정책브리핑",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNS3gtNm5teER6cnpFRkxpeXJ2b3lHZVJiNnZKYzZTYUJnZVBGTENqeWd4MzAweWJTUGdVdEJHZDRyXzNXaWhoMnhicFlFTVkzbEt3al9PZVloVWVsZEVZWjB5cTNwbmdKUHB1ZEJUSldVNFJxaTdJa2hCcVhPaDV3MFM4TDBfUVhhd0E?oc=5"
+        "title": "유도 대통령 넘어 프랑스 대통령? 리네르, 대선 판도 메칠까 - 주간경향",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5nNC02ZFNhRVNnMTNhdEcxZDBfXzZwRnhhcXk3TXNkVnFidXcwSmtQcXdvT3RsNkdOWWp3bGJmYWVfNEVmTm9ZajR0V0JCZWxSUjRtRlVldGZVWW9kYnc?oc=5"
       },
       {
-        "title": "대통령의Y 1회 비하인드 - 대한민국 청와대",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MRG5sT052QjN4a0xaZTBkWWs2YmRUU3pDT2Z0eUFiQlc4RWQxSDYwaE1Od0FhNTJ1MXZTbzNyWnpiWmt5S1pHN09kSWhlSWQzMUFjZWJ3?oc=5"
+        "title": "27대 대통령 윌리엄 하워드 태프트 - VOA 한국어 홈페이지",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1GSUpNWnNsS3pHelhsRWxWdEhoTFhHSnktWk5LalI2VGdKcGxleHdvamhoLVlJT0U4eHk0eENjalFBelFJSkVucEw4TFdRMXVodTR30gFTQVVfeXFMTUZJSk1ac2xLekd6WGxFbFZ0SGhMWEdKeS1aTktqUjZUZ0pwbGV4d29qaGgtWUlPRTh4eTR4Q2NqUUF6UUlKRW5wTDhMV1ExdWh1NHc?oc=5"
       },
       {
-        "title": "트럼프·나토 수장 회동...\"러시아, 전쟁 확대 말라\" - VOA 한국어 홈페이지",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBiWDctcVRkdUwwckxIN2stY25JMDBPY0ZIaU85VUFNaldPNlowQVQ0cUVuRGl2cFQwSkJuXzNRd0NsVjNjdVV2cTgtdWxxcE5NX3J4dTRKM2t2RElqbTJtcnZoczQzYVRs0gFrQVVfeXFMT294YlNOOG4zdUtWbzhfRkV4YVJ0dzlTVGZzSWNGOUpBa3h6Ym9wZWFGUDJ6Z1VBTDF1SGp6cW1NYjhrVmNLWjBLZUZfNGpaM0ptWUFNSktlb1BSRWJoRXAxWHp5OW1XUVgxS3M?oc=5"
+        "title": "“특검 임명에 대통령 관여는 이해충돌” - 법률신문",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9xUWxURTZCRzYxR1hHOHRXTFJua2QzR1ZFdFJRbExNempiMThNcnhIVkhGd2txV2ZEU2tLZXdmbVdoZ3RPa1ZBMnJGR3NtMWcxV1RqdEwtSEhzejB3bWRRTU5wUExUclhSRzhpaE130gFyQVVfeXFMTWdsOWFrenY1UXNTNGVOVFdfTkZjUlMzSjhGQnQtN3V3TERvWFFvVDF3THhhZmRBODJvdE95T3ZvNHdYVkpEQ0tkNFNhSF8tY0NvMU1DRUtaUG9VYlhPR19WalpjZG9kUHh3Y2FYeXI2ZTln?oc=5"
       },
       {
-        "title": "운영위, 소관부처 예산안 의결…대통령실 예산은 보류 - 연합뉴스TV",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5tRE9JMDFDYzBjWXFTcVJIdDQ3NHU5TjdSbjhpaFVXWFpaMWJ1WHRHand6YmxNZk1qWkNxcUlueHM0Qm5fb0JLekpjUFRSalBYWHRUNnowT0dJT2ZZYlF0aG03VVpfWWs?oc=5"
+        "title": "조작기소 특검 후보자, 李대통령 경기지사 시절 고문 변호사 활동 - 연합뉴스TV",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1WSlVuUnhJNDROUzVTR21pLUpBN0RCOE5nc3IxYnRtRW5zZFB0UGQycy15ckJXeEliV3h0cUdSbVpHRUhHS3pFRUJhbWUxQi1acWkwNlZ6ZGwyMmV5Z0g5TXNNNjQySGM?oc=5"
       }
     ]
   }
